@@ -28,7 +28,7 @@ export default function Navbar() {
         <a href="/about" className="hover:text-gray-400">
           About
         </a>
-        <button onClick={() => setOpen(!open)} className="md:hidden">
+        <button onClick={() => setIsOpen(!isOpen)} className="text-white md:hidden">
           ☰
         </button>
       </div>
