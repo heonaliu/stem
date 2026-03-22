@@ -11,19 +11,19 @@ export default function Navbar() {
           Home
         </a>
         <a href="/domain1" className="hover:text-gray-400">
-          Domain 1
+          Excellence
         </a>
         <a href="/domain2" className="hover:text-gray-400">
-          Domain 2
+          Growth
         </a>
         <a href="/domain3" className="hover:text-gray-400">
-          Domain 3
+          Commitment
         </a>
         <a href="/domain4" className="hover:text-gray-400">
-          Domain 4
+          Citizenship
         </a>
         <a href="/domain5" className="hover:text-gray-400">
-          Domain 5
+          Connections
         </a>
         <a href="/about" className="hover:text-gray-400">
           About
