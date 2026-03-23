@@ -1,6 +1,6 @@
 export default function Header({ domain, title }) {
   return (
-    <h1 className="py-8 pl-8 text-4xl font-bold text-primary-500">
+    <h1 className="text-4xl font-bold text-primary-500">
       <p className="text-xs font-semibold tracking-[0.14em] text-burnt-peach-600 uppercase">
         Domain {domain}
       </p>
