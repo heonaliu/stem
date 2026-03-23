@@ -19,15 +19,14 @@ const testimonialsData = [
     id: 1,
     initials: "MD",
     name: "Ms. Daley",
-    role: "Computer Science Teacher",
+    role: "Computer Programming Teacher",
     quote: "xyz",
     tags: [
-      { text: "Computer Science", type: "featured" },
-      { text: "Enterprise", type: "default" },
+      { text: "Technology", type: "featured" },
     ],
     stats: [
       { icon: Users, text: "Math Dept." },
-      { icon: Calendar, text: "2 Years Ago" },
+      { icon: Clock, text: "Sophomore Year" },
     ],
     avatarGradient: "linear-gradient(135deg, #5e6ad2, #8b5cf6)",
   },
@@ -39,7 +38,7 @@ export default function Domain2() {
       <div className="flex flex-col gap-8 p-8">
         <Header domain="2" title="Significant Growth Over Time" />
 
-        <div className="w-full max-w-2xl mx-auto">
+        <div className="w-full max-w-4xl mx-auto">
           <div className="relative overflow-hidden rounded-2xl border border-white/20 bg-white/10 backdrop-blur-xl shadow-2xl p-6">
             <div
               className="absolute inset-0 bg-cover bg-center opacity-60 scale-110"
