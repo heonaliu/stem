@@ -1,7 +1,6 @@
+import Header from "../components/Header";
 export default function Domain4() {
     return (
-        <h1 className="text-4xl font-bold text-blue-500">   
-            Domain 4
-        </h1>
+        <Header domain="4" title="Innovation and Creativity" />
     );
 }
