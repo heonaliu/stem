@@ -25,12 +25,14 @@ export default function BubbleNavbar() {
 
   return (
     <div className="fixed bottom-6 left-1/2 -translate-x-1/2 z-50">
-      <nav className="
+      <nav
+        className="
         flex items-center gap-2
-        bg-white/70 backdrop-blur-md
-        border border-gray-200
+        bg-white/70 border 
+        border-gray-200
         px-4 py-3 rounded-full shadow-lg
-      ">
+      "
+      >
         {navItems.map((item, idx) => {
           const isActive = location.pathname === item.path;
           const isHovered = hoveredIdx === idx;
@@ -44,38 +46,36 @@ export default function BubbleNavbar() {
               onMouseEnter={() => setHoveredIdx(idx)}
               onMouseLeave={() => setHoveredIdx(null)}
               className={`
-                group relative flex items-center justify-center
-                rounded-full transition-all duration-300
-                ${isActive
-                  ? "bg-blue-100 text-blue-600"
-                  : "text-gray-600 hover:text-blue-500 hover:bg-blue-50"}
-                ${isHovered
-                  ? "w-14 h-14"
-                  : isNeighbor
-                  ? "w-12 h-12"
-                  : "w-10 h-10"}
-              `}
+  group relative flex items-center justify-center
+  rounded-full transition-all duration-300
+
+  ${
+    isActive
+      ? "bg-primary-100 text-primary-600 shadow-md scale-110"
+      : "text-muted hover:text-accent-500 hover:bg-primary-100"
+  }
+
+  ${isHovered ? "w-14 h-14" : isNeighbor ? "w-12 h-12" : "w-10 h-10"}
+`}
             >
               <item.icon
                 className={`
-                  transition-all duration-300
-                  ${isHovered
-                    ? "w-7 h-7"
-                    : isNeighbor
-                    ? "w-5 h-5"
-                    : "w-4 h-4"}
+                  rounded-full transition-all duration-300 transform
+                  ${isHovered ? "w-7 h-7" : isNeighbor ? "w-5 h-5" : "w-4 h-4"}
                 `}
               />
 
               {/* Tooltip */}
-              <span className="
+              <span
+                className="
                 absolute -top-10
                 scale-0 opacity-0
-                bg-gray-900 text-white text-xs
+                bg-primary-100 text-white text-xs
                 px-2 py-1 rounded-md
-                transition-all duration-200
+                rounded-full transition-all duration-200 transform
                 group-hover:scale-100 group-hover:opacity-100
-              ">
+              "
+              >
                 {item.label}
               </span>
             </button>
