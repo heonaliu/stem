@@ -70,7 +70,7 @@ export default function BubbleNavbar() {
                 className="
                 absolute -top-10
                 scale-0 opacity-0
-                bg-primary-100 text-white text-xs
+                bg-primary-500 text-white text-xs
                 px-2 py-1 rounded-md
                 rounded-full transition-all duration-200 transform
                 group-hover:scale-100 group-hover:opacity-100

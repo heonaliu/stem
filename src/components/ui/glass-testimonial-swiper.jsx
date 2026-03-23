@@ -95,7 +95,7 @@ export const TestimonialStack = ({
             style={style}
             onMouseDown={(e) => handleDragStart(e, index)}
             onTouchStart={(e) => handleDragStart(e, index)}>
-            <div className="p-6 md:p-8">
+            <div className="p-3 md:p-8">
               <div className="flex items-start justify-between mb-6">
                 <div className="flex items-center gap-4">
                   <div
