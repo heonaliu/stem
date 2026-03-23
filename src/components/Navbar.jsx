@@ -29,7 +29,7 @@ export default function BubbleNavbar() {
         className="
         flex items-center gap-2
         bg-white/70 border 
-        border-gray-200
+        border-primary-500 rounded-full 
         px-4 py-3 rounded-full shadow-lg
       "
       >
