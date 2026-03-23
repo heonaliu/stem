@@ -37,7 +37,7 @@ const testimonialsData = [
 export default function Domain2() {
   return (
     <>
-      <div className="flex flex-col gap-8 py-8 pl-8 pr-8">
+      <div className="flex flex-col gap-8 p-8">
         <Header domain="2" title="Significant Growth Over Time" />
 
         <div className="w-full max-w-2xl mx-auto">
