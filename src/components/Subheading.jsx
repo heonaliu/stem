@@ -1,5 +1,5 @@
-export default function Subheading({ title, color}) {
-  return <h1 className={`text-2xl font-bold ${color}`}>
+export default function Subheading({ title, color, size}) {
+  return <h1 className={`text-${size}xl font-bold ${color}`}>
     {title}
     </h1>;
 }
