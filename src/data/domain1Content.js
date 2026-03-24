@@ -41,4 +41,37 @@ export const domain1Content = {
     ],
     gpa: 3.99,
   },
+
+  ncwit: {
+    title:
+      "NCWIT: Aspirations in Computing 2026 MA Affiliate Honorable Mention Award",
+    paragraphs: [
+      `Awarded by National Center for Women & Information Technology (NCWIT): Aspirations in Computing, the High School Award recognizes and highlights students who are dedicated to studying computing, exploring technology-driven initiatives, and strengthening technical skills within the field. Within Massachusetts, I am 1 of 59 other recipients in the state who have received an award for MA Affiliate for 2026. 
+`,
+    ],
+    explain: [
+      `Within my application for this award, I described the courses I took throughout high school and the different projects I engaged in while exemplifying leadership initiatives within the STEM community by tutoring young children in programming fields at Penguin Coding School. This award demonstrates selective recognition and substantiates excellence through my skills, initiative in technology, and passion for Computer Science beyond the class. The opportunities I took to learn and grow demonstrate how I push and seek opportunities is reflected in this award, demonstrating what I believe fits in Excellence.`,
+    ],
+    explainTitle: "Connecting To This Domain",
+  },
+
+  acsl: {
+    title: "ACSL 2025-2026",
+    paragraphs: [
+      `American Computing Science League (ACSL) is an international computer science contest organized for K-12 students. The season consists of 4 contests. Each contest tests a 30 min short problem testing topics on theory and a 72 hour programming problem.`,
+    ],
+
+    explain: [
+      `This is currently an ongoing contest. Newton North’s Programming Club is competing in the Intermediate 5 Division. S1 refers to “Short Problem for Contest 1” and P1 refers to “Programming Problem for Contest 1”. As of Contest 1 and Contest 2, I have earned full points (6) for our team, reflecting the results of my effort to strive and challenging myself to look beyond opportunities within the classroom and become a better problem solver.`,
+      `As a passionate student in Computer Science, 
+      I am also deeply involved in Newton North’s programming club. 
+      This is my first year and not only does it allow me to challenge different critical topics in the CS field, 
+      but also brings me into competitive programming environments and timed competitions. 
+      Working with ACSL not only keeps me on my toes with new topics each contest, 
+      but also allows me to find the joy mapping out my problems 
+      (especially seen in page 5 of ACSL Contest 2 and page 2 of ACSL Contest 3) and thinking strategically. 
+      During the 72-hour programming problem, almost 90% of the time I spend is spent thinking, and the 10% is the actual coding.`
+    ],
+    explainTitle: "Connecting To The Domain",
+  },
 };
