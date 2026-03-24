@@ -4,6 +4,7 @@ import { GlowCard } from "@/components/GlowCard";
 import { domain1Content } from "@/data/domain1Content";
 import acsl from "../../assets/public/acsl-team-roster.png";
 import ACSLCard from "./ACSLCard";
+import ACSL3Card from "./ACSL3Card";
 
 export default function ACSL() {
   return (
@@ -22,7 +23,7 @@ export default function ACSL() {
       <div className="flex flex-wrap gap-6 items-start justify-center">
         <div className="shrink-0">
           <GlowCard
-            link="https://www.aspirations.org/people/heona-l/155442"
+            link="https://www.scores.acsl.org/roster/523/"
             image={acsl}
           />
         </div>
@@ -49,10 +50,9 @@ export default function ACSL() {
           </Card>
         </div>
       </div>
-      <div className="w-full flex justify-center">
-        <div className="w-full max-w-auto">
-            <ACSLCard />
-        </div>
+      <div className="w-full flex flex-col gap-6 max-w-auto justify-center">
+        <ACSLCard />
+        <ACSL3Card />
       </div>
     </div>
   );
