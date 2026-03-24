@@ -1,6 +1,5 @@
 import Subheading from "@/components/Subheading";
 import Header from "../components/Header";
-import EvidenceCard from "@/components/EvidenceCard";
 import Card from "@/components/Card";
 import { GlowCard } from "@/components/GlowCard";
 import transcript from "../assets/public/transcript.png";
@@ -13,7 +12,10 @@ export default function Domain1() {
       <Header domain="1" title="Excellence In Disciplines" />
 
       <Card>
-        <Subheading title={domain1Content.transcript.title} color={"text-accent-500"}/>
+        <Subheading
+          title={domain1Content.transcript.title}
+          color={"text-accent-500"}
+        />
         {domain1Content.transcript.paragraphs.map((p, i) => (
           <p key={i}>{p}</p>
         ))}
@@ -26,10 +28,13 @@ export default function Domain1() {
 
         <div className="flex-1 min-w-[250px] max-w-auto">
           <Card>
-            <div >
-                <Subheading title={domain1Content.transcript.titleCore} color="text-primary-500" />
+            <div>
+              <Subheading
+                title={domain1Content.transcript.titleCore}
+                color="text-primary-500"
+              />
             </div>
-            
+
             <ul>
               {domain1Content.transcript.coreContent.map((p, i) => (
                 <li key={i}>{p}</li>
