@@ -14,7 +14,7 @@ import Domain5 from "./pages/Domain5";
 
 export default function App() {
   return (
-    <div className="bg-background min-h-screen flex flex-col">
+    <div className=" min-h-screen flex flex-col">
       <Navbar />
       <main className="flex-grow">
         <Routes>

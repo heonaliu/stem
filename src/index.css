@@ -81,7 +81,7 @@
     outline-color: oklch(var(--ring));
   }
   body {
-    @apply bg-background text-foreground;
+    @apply text-foreground;
   }
   html {
     @apply font-sans;

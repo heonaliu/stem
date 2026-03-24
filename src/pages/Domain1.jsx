@@ -17,7 +17,6 @@ export default function Domain1() {
       <NCWIT />
       <ACSL />
 
-
       <Subheading title="MIT Blueprint" />
       <Card title="MIT Blueprint" />
     </div>

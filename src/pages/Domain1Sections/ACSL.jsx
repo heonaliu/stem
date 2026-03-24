@@ -3,11 +3,11 @@ import Subheading from "@/components/Subheading";
 import { GlowCard } from "@/components/GlowCard";
 import { domain1Content } from "@/data/domain1Content";
 import acsl from "../../assets/public/acsl-team-roster.png";
+import ACSLCard from "./ACSLCard";
 
 export default function ACSL() {
-
   return (
-    <>
+    <div className="flex flex-col gap-8 max-w-auto mx-auto w-full">
       <Card>
         <Subheading
           title={domain1Content.acsl.title}
@@ -49,6 +49,11 @@ export default function ACSL() {
           </Card>
         </div>
       </div>
-    </>
+      <div className="w-full flex justify-center">
+        <div className="w-full max-w-auto">
+            <ACSLCard />
+        </div>
+      </div>
+    </div>
   );
 }
