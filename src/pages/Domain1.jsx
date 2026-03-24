@@ -24,7 +24,7 @@ export default function Domain1() {
           <GlowCard image={transcript} />
         </div>
 
-        <div className="flex-1 min-w-[250px] max-w-md">
+        <div className="flex-1 min-w-[250px] max-w-auto">
           <Card>
             <Subheading title="Transcript" />
           </Card>
