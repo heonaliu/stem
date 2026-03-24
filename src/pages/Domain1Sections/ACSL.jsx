@@ -5,6 +5,7 @@ import { domain1Content } from "@/data/domain1Content";
 import acsl from "../../assets/public/acsl-team-roster.png";
 
 export default function ACSL() {
+
   return (
     <>
       <Card>
@@ -45,7 +46,6 @@ export default function ACSL() {
             {domain1Content.acsl.explain.map((p, i) => (
               <p key={i}>{p}</p>
             ))}
-
           </Card>
         </div>
       </div>
