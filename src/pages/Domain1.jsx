@@ -6,6 +6,7 @@ import { GlowCard } from "@/components/GlowCard";
 
 import { domain1Content } from "@/data/domain1Content";
 import Transcript from "./Domain1Sections/Transcript";
+import NCWIT from "./Domain1Sections/NCWIT"
 
 export default function Domain1() {
   return (
@@ -13,8 +14,7 @@ export default function Domain1() {
       <Header domain="1" title="Excellence In Disciplines" />
       <Transcript />
 
-      <Subheading title="NCWIT" />
-      <Card title="NCWIT" />
+      <NCWIT />
 
       <Subheading title="ACSL" />
       <Card title="ACSL" />
