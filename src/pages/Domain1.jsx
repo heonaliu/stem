@@ -13,9 +13,9 @@ export default function Domain1() {
       <Header domain="1" title="Excellence In Disciplines" />
 
       <Card>
-        <Subheading title={domain1Content.transcript.title} />
+        <Subheading title={domain1Content.transcript.title} color={"text-accent-500"}/>
         {domain1Content.transcript.paragraphs.map((p, i) => (
-            <p key = {i}>{p}</p>
+          <p key={i}>{p}</p>
         ))}
       </Card>
 
@@ -26,7 +26,15 @@ export default function Domain1() {
 
         <div className="flex-1 min-w-[250px] max-w-auto">
           <Card>
-            <Subheading title="Transcript" />
+            <div >
+                <Subheading title={domain1Content.transcript.titleCore} color="text-primary-500" />
+            </div>
+            
+            <ul>
+              {domain1Content.transcript.coreContent.map((p, i) => (
+                <li key={i}>{p}</li>
+              ))}
+            </ul>
           </Card>
         </div>
       </div>

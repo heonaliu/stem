@@ -22,5 +22,23 @@ export const domain1Content = {
       `The following year, I am enrolled in AP Physics C, AP Calculus BC,
           Data Science, and Advanced Robotics, further challenging myself.`,
     ],
+    titleCore: "Core STEM Courses Throughout 9-11th Grade",
+    coreContent: [
+      `Physics (ACP)`,
+      `Chemistry (H)`,
+      `Biology (H)`,
+
+      `Math: Math 1 (H)`,
+      `Math 2 (H)`,
+      `Pre-Calculus (H)`,
+      `AP Statistics`,
+
+      `Computer Programming (H)`,
+      `Intro to Computer Science`,
+
+      `Intro to Robotics`,
+      `Intermediate Robotics`,
+    ],
+    gpa: 3.99,
   },
 };
