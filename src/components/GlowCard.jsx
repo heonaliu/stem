@@ -27,7 +27,7 @@ export function GlowCard({ image, link }) {
         <img
           src={image}
           alt="card"
-          className="block w-auto h-auto max-h-80 object-contain"
+          className="block w-auto h-auto max-h-[70vh] max-w-[calc(100vw-4rem)] object-contain transition-all duration-300"
         />
       </div>
     </div>

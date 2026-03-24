@@ -19,7 +19,7 @@ export default function ACSL() {
         ))}
       </Card>
 
-      <div className="flex flex-wrap gap-6 items-start">
+      <div className="flex flex-wrap gap-6 items-start justify-center">
         <div className="shrink-0">
           <GlowCard
             link="https://www.aspirations.org/people/heona-l/155442"
