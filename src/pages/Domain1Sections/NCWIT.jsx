@@ -42,7 +42,7 @@ export default function NCWIT() {
         </div>
         <div className="shrink-0">
           <GlowCard
-            link="https://www.scores.acsl.org/roster/523/"
+            link="https://www.aspirations.org/people/heona-l/155442"
             image={ncwit}
           />
         </div>
