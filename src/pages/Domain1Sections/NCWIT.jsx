@@ -25,7 +25,7 @@ export default function NCWIT() {
             image={ncwit}
           />
         </div>
-        <div className="w-full md:flex-1 min-w-[250px] max-w-md">
+        <div className="w-full md:flex-1 min-w-[250px]">
           <Card>
             <Subheading
               title={domain1Content.ncwit.explainTitle}

@@ -86,7 +86,7 @@ export const domain1Content = {
     title: "NCLS: Emerging Leader Service Award (ELSA) 2026 - Silver Award",
     paragraphs: [
       `Awarded by Newton Chinese Language School (NCLS), the Emerging Leader Service Award is a new and prestigious award that recognizes and honors individuals who have demonstrated a strong commitment to volunteer service.`,
-      `As the largest nonprofit weekend language school in New England, NCLS has served as a certifying organization since 2015. The award recognizes volunteers who meet specific service hour requirements over a 12-month period. Silver Award is awarded to Young Adults (16-25 years old) with 175 - 249 hours of volunteer service.`,
+      `As the largest nonprofit weekend language school in New England, NCLS has served as a certifying organization since 2015. The award recognizes volunteers who meet specific service hour requirements over a 12-month period. The Silver Award is awarded to Young Adults (16-25 years old) with 175 - 249 hours of volunteer service.`,
     ],
     roleTitle: `My Role:`,
     roleParagraphs: [

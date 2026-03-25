@@ -14,7 +14,7 @@ export default function ELSA() {
           size="4"
         />
         <p className="italic text-sm">
-          The official certificate for 2026 isn’t released yet so this email
+          The official certificate for 2026 isn’t released for recipients yet so this email
           screenshot serves as evidence.
         </p>
         {domain1Content.elsa.paragraphs.map((p, i) => (
@@ -32,7 +32,7 @@ export default function ELSA() {
         </div>
 
         {/* Text Card */}
-        <div className="w-full md:flex-1 min-w-[250px] max-w-md">
+        <div className="w-full flex-1 min-w-[250px] ">
           <Card>
             <Subheading
               title={domain1Content.elsa.roleTitle}
@@ -56,12 +56,6 @@ export default function ELSA() {
               color="text-primary-500"
               size="2"
             />
-          </div>
-
-          <div>
-            <p className="italic text-sm">
-              click the image to be redirected to info about ELSA!
-            </p>
           </div>
 
           {domain1Content.elsa.explain.map((p, i) => (
