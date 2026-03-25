@@ -19,5 +19,14 @@ export const domain2Content = {
     dept: "Math",
     time: "Sophmore",
     comment: "xyz"
+  },
+
+  penguin: {
+    title: "Penguin Coding School",
+    paragraphs: [`...`],
+    section1Title: "Next Steps In Learning",
+    section1:[`..`],
+    section2Title: "One Key Moment That Changed The Way I Teach STEM:",
+    section2Paragraphs: [`......`]
   }
 };
