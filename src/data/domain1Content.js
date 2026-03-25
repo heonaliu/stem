@@ -112,7 +112,9 @@ export const domain1Content = {
       `23:34 - 29:22 Project Presentation & Project DEMO`,
     ],
     section2: "Our Project: Skill Trade",
-    section2Paragraphs: [`...`],
+    section2Paragraphs: [
+      `During the hackathon, I worked with 2 other teammates Leran (Alan) Tao and Ryan Lee. Together we built Skill Trade. Inspired by our team’s shared passion for mutual growth and learning, Skill Trade was made to be a peer-based platform, matching the skills someone could teach and the skills they want to learn.`,
+    ],
     explainTitle: "Connecting To This Domain",
     explainParagraphs: [`..`],
   },
