@@ -2,6 +2,7 @@ import Card from "@/components/Card";
 import Subheading from "@/components/Subheading";
 import { domain2Content } from "@/data/domain2Content";
 import { GlowCard } from "@/components/GlowCard";
+import intPic from "@/assets/public/intRobo/int7.png"
 
 export default function IntRobo() {
   return (
@@ -20,8 +21,8 @@ export default function IntRobo() {
       <div className="flex flex-wrap gap-6 items-center justify-center">
               <div className="w-full flex justify-center md:w-auto">
                 <GlowCard
-                  link="https://www.aspirations.org/people/heona-l/155442"
-                  
+                  link="https://docs.google.com/document/d/1mfhwovyyZTbpKXVuWuJ_qqtkyQX3MBVJ/edit?usp=sharing&ouid=101330965485149050267&rtpof=true&sd=true"
+                  image={intPic}
                 />
               </div>
               <div className="w-full md:flex-1 min-w-[250px]">
@@ -32,7 +33,7 @@ export default function IntRobo() {
                     size="2"
                   />
     
-                  <p className="italic text-sm">click the image to be redirected!</p>
+                  <p className="italic text-sm">click the image to be redirected to my journal & reflections!</p>
       
                   {domain2Content.intRobo.explain.map((p, i) => (
                     <p key={i}>{p}</p>
