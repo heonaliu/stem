@@ -49,8 +49,10 @@ export default function Blueprint() {
             <p key={i}>{p}</p>
           ))}
         </Card>
+        <div className="w-full mt-60 flex items-center justify-center">
+          <Orbit />
+        </div>
       </div>
-      <Orbit />
     </>
   );
 }
