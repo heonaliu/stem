@@ -7,6 +7,7 @@ import NCWIT from "./Domain1Sections/NCWIT";
 import ACSL from "./Domain1Sections/ACSL";
 import Define from "./Domain1Sections/Define";
 import ELSA from "./Domain1Sections/ELSA";
+import Blueprint from "./Domain1Sections/Blueprint";
 
 export default function Domain1() {
   return (
@@ -18,8 +19,7 @@ export default function Domain1() {
         <NCWIT />
         <ACSL />
         <ELSA />
-        <Subheading title="MIT Blueprint" />
-        <Card>MIT Blueprint</Card>
+        <Blueprint />
       </div>
     </div>
   );

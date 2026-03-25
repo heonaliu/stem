@@ -3,13 +3,14 @@ import Card from "@/components/Card";
 import Subheading from "@/components/Subheading";
 import elsa from "../../assets/public/ncls-elsa-award.png";
 import { GlowCard } from "@/components/GlowCard";
+import Video from "./components/Video";
 
 export default function Blueprint() {
   return (
     <>
       <Card>
         <Subheading
-          title={domain1Content.elsa.title}
+          title={domain1Content.blueprint.title}
           color={"text-accent-500"}
           size="4"
         />
@@ -17,10 +18,12 @@ export default function Blueprint() {
           The official certificate for 2026 isn’t released for recipients yet so this email
           screenshot serves as evidence.
         </p>
-        {domain1Content.elsa.paragraphs.map((p, i) => (
+        {domain1Content.blueprint.description.map((p, i) => (
           <p key={i}>{p}</p>
         ))}
       </Card>
+
+      <Video />
 
       <div className="flex flex-wrap gap-6 items-center justify-center">
         {/* GlowCard */}
