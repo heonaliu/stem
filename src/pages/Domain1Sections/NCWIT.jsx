@@ -18,33 +18,27 @@ export default function NCWIT() {
         ))}
       </Card>
 
-      <div className="flex flex-wrap gap-6 items-start">
-        <div className="flex-1 min-w-[250px] max-w-auto">
+      <div className="flex flex-wrap gap-6 items-center justify-center">
+        <div className="w-full flex justify-center md:w-auto">
+          <GlowCard
+            link="https://www.aspirations.org/people/heona-l/155442"
+            image={ncwit}
+          />
+        </div>
+        <div className="w-full md:flex-1 min-w-[250px] max-w-md">
           <Card>
-            <div>
-              <Subheading
-                title={domain1Content.ncwit.explainTitle}
-                color="text-primary-500"
-                size="2"
-              />
-            </div>
+            <Subheading
+              title={domain1Content.ncwit.explainTitle}
+              color="text-primary-500"
+              size="2"
+            />
 
-            <div>
-              <p className="italic text-sm">
-                click the image to be redirected!
-              </p>
-            </div>
+            <p className="italic text-sm">click the image to be redirected!</p>
 
             {domain1Content.ncwit.explain.map((p, i) => (
               <p key={i}>{p}</p>
             ))}
           </Card>
-        </div>
-        <div className="shrink-0">
-          <GlowCard
-            link="https://www.aspirations.org/people/heona-l/155442"
-            image={ncwit}
-          />
         </div>
       </div>
     </>
