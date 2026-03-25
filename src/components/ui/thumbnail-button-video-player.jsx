@@ -84,7 +84,7 @@ const ThumbnailButton = ({
       >
         <div className="flex flex-col sm:flex-row items-center sm:items-center">
           {/* Thumbnail Image */}
-          <div className="w-full sm:w-[175px] aspect-video relative rounded-lg overflow-hidden flex-shrink-0">
+          <div className="w-full hover:scale-105  transition duration-300 sm:w-[175px] aspect-video relative rounded-lg overflow-hidden flex-shrink-0">
             <img
               src={finalThumbnail}
               alt="Video thumbnail"
@@ -105,7 +105,7 @@ const ThumbnailButton = ({
             {/* YouTube Badge */}
             {isYouTube && (
               <div className="absolute bottom-1 right-1 bg-red-600 text-white text-[8px] font-bold px-1 py-0.5 rounded">
-                YT
+                YouTube
               </div>
             )}
           </div>
