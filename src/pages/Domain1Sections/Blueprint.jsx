@@ -54,11 +54,11 @@ export default function Blueprint() {
       <div className="w-full flex-1 min-w-[250px] ">
         <Card>
           <Subheading
-            title={domain1Content.blueprint.section2}
+            title={domain1Content.blueprint.explainTitle}
             color="text-primary-500"
             size="2"
           />
-          {domain1Content.blueprint.section2Paragraphs.map((p, i) => (
+          {domain1Content.blueprint.explainParagraphs.map((p, i) => (
             <p key={i}>{p}</p>
           ))}
         </Card>

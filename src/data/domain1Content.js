@@ -116,6 +116,17 @@ export const domain1Content = {
       `During the hackathon, I worked with 2 other teammates Leran (Alan) Tao and Ryan Lee. Together we built Skill Trade. Inspired by our team’s shared passion for mutual growth and learning, Skill Trade was made to be a peer-based platform, matching the skills someone could teach and the skills they want to learn.`,
     ],
     explainTitle: "Connecting To This Domain",
-    explainParagraphs: [`..`],
+    explainParagraphs: [
+      `My participation in MIT Blueprint demonstrates excellence through the ability to apply computer science knowledge in a fast-paced, real-world environment. Unlike individual classroom assignments, this hackathon required my team to ideate, design, develop, and present a functional project in a limited timeframe, emphasizing both practical skills and adaptability.`,
+      `As evidenced in the demo video, GitHub repository, vlog, and more, I contributed primarily toward the frontend, development of user interface, and presentation/pitching of Skill Trade.`,
+      `This process required applying self-taught programming concepts such as React JS, web development, and critical problem solving concepts in order to debug and break down multiple components to integrate them into a cohesive product. This connects with systems thinking in engineering where I was pushed to recognize how the different parts of the user interface linked together and their relationships.`,
+      `Additionally, participating in a hackathon hosted at MIT exposed me to a competitive and collaborative environment with other highly motivated peers. Successfully contributing to a working project not only reflects my resilience but also ability to perform under pressure and engage in authentic engineering experiences. This opportunity illustrates excellence because it extends beyond theories and classroom assignments, showcasing my ability to use my STEM skills to create a tangible, impactful product to a problem I care about.`,
+    ],
   },
+
+  conclusion:{
+    title: "Conclusion",
+    paragraphs: [`Altogether, my academic performances, ACSL competition in NNHS’s programming club, selective recognition at NCWIT, and application of skills through MIT Blueprint hackathon demonstrate consistent excellence and the building of critical analytical skills that is essential to thrive in the STEM field. Through both validated recognition substantiated with clear evident technical works, I believe myself to have demonstrated a high level of initiative, challenge seeking, and commitment reflecting true excellence in STEM.
+`]
+  }
 };

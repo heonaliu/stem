@@ -8,6 +8,7 @@ import ACSL from "./Domain1Sections/ACSL";
 import Define from "./Domain1Sections/Define";
 import ELSA from "./Domain1Sections/ELSA";
 import Blueprint from "./Domain1Sections/Blueprint";
+import Conclusion from "./Domain1Sections/Conclusion";
 
 export default function Domain1() {
   return (
@@ -20,6 +21,7 @@ export default function Domain1() {
         <ACSL />
         <ELSA />
         <Blueprint />
+        <Conclusion />
       </div>
     </div>
   );
