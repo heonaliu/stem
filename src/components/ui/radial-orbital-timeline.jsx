@@ -254,14 +254,14 @@ export default function RadialOrbitalTimeline({
                         <div className="mt-4 pt-3 border-t border-white/10">
                           <Button
                             asChild
-                            className="w-full flex items-center bg-accent-500 text-white justify-center gap-2"
+                            className="w-full flex items-center bg-accent-500 text-white justify-center gap-2  hover:bg-accent-500/60"
                           >
                             <a
                               href={item.link}
                               target="_blank"
                               rel="noopener noreferrer"
                             >
-                              Link To Evidence
+                              Link
                               <ArrowRight size={14} />
                             </a>
                           </Button>
@@ -287,7 +287,7 @@ export default function RadialOrbitalTimeline({
                                   key={relatedId}
                                   variant="outline"
                                   size="sm"
-                                  className="flex items-center h-6 px-2 py-0 text-xs rounded-none border-white/20 bg-transparent hover:bg-primary-100/10 text-text/80 hover:text-text"
+                                  className="flex items-center h-6 px-2 py-0 text-xs rounded border-primary-500/60 bg-primary-600 hover:bg-primary-100/80 text-text/80 hover:text-text"
                                   onClick={(e) => {
                                     e.stopPropagation();
                                     toggleItem(relatedId);
