@@ -99,10 +99,17 @@ export const domain1Content = {
     ],
   },
   blueprint: {
-    title: `MIT Blueprint`,
+    title: ``,
     description: [`..`],
-    section1: "Our Project: Skill Trade",
-    section1Paragraphs: [`..`],
+    section1: "MIT Blueprint 2026 Vlog",
+    section1Paragraphs: [
+      `3:38 - 5:36 Hackathon Start & 1.5 hours progress`,
+      `12:20 - 14:37 Team Progress Check-In`,
+      `18:07 - 19:21 Practice Pitching My Project`,
+      `23:34 - 29:22 Project Presentation & Project DEMO`
+    ],
+    section2: "Our Project: Skill Trade",
+    section2Paragraphs: [`...`],
     explainTitle: "Connecting To This Domain",
     explainParagraphs: [`..`],
   },

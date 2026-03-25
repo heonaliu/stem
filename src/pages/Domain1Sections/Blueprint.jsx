@@ -15,8 +15,8 @@ export default function Blueprint() {
           size="4"
         />
         <p className="italic text-sm">
-          The official certificate for 2026 isn’t released for recipients yet so this email
-          screenshot serves as evidence.
+          The official certificate for 2026 isn’t released for recipients yet so
+          this email screenshot serves as evidence.
         </p>
         {domain1Content.blueprint.description.map((p, i) => (
           <p key={i}>{p}</p>
@@ -25,47 +25,22 @@ export default function Blueprint() {
 
       <Video />
 
-      <div className="flex flex-wrap gap-6 items-center justify-center">
-        {/* GlowCard */}
-        <div className="w-full flex justify-center md:w-auto">
-          <GlowCard
-            link="https://www.newtonchineseschool.org/handbook/Emerging-Leader-Service-Award.pdf"
-            image={elsa}
+      <Card>
+        <div className="gap-6">
+          <Subheading
+            title={domain1Content.blueprint.section1}
+            color="text-primary-500"
+            size="2"
           />
+          <p className="italic text-sm py-2">click the video above to watch!</p>
         </div>
-
-        {/* Text Card */}
-        <div className="w-full flex-1 min-w-[250px] ">
-          <Card>
-            <Subheading
-              title={domain1Content.elsa.roleTitle}
-              color="text-primary-500"
-              size="2"
-            />
-
-            <p className="italic text-sm">
-              click the image to be redirected to info about ELSA!
-            </p>
-
-            {domain1Content.elsa.roleParagraphs.map((p, i) => (
-              <p key={i}>{p}</p>
-            ))}
-          </Card>
-        </div>
-        <Card>
-          <div>
-            <Subheading
-              title={domain1Content.elsa.explainTitle}
-              color="text-primary-500"
-              size="2"
-            />
-          </div>
-
-          {domain1Content.elsa.explain.map((p, i) => (
-            <p key={i}>{p}</p>
+        <p className="font-bold">Several Key Timestamps:</p>
+        <ul>
+          {domain1Content.blueprint.section1Paragraphs.map((p, i) => (
+            <li key={i}>{p}</li>
           ))}
-        </Card>
-      </div>
+        </ul>
+      </Card>
     </>
   );
 }
