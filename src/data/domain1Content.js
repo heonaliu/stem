@@ -1,4 +1,13 @@
 export const domain1Content = {
+  define:{
+    title: "How I Define Excellence",
+    paragraphs: [
+      `I believe excellence in STEM isn’t solely defined by achieving top grades and awards, but consistently pushing beyond expectations and deepening my understanding through meaningful ways. This means actively seeking opportunities to challenge myself, whether it is advanced coursed work building fun projects, and using those opportunities to grow technically and into a better problem solver.`,
+      `Excellence also means adaptability, falling back from challenges, resilience, and persistence. Throughout my journey in STEM, I’ve encountered moments where I was faced with complex problems that required me to break through setbacks, rethink my approach, and refine my skills.`,
+      `Though excellence might be considered an “end product” of all our efforts through awards and trophies, my experiences have taught me that it is developed through navigating unfamiliar challenges, applying knowledge to new concepts, and collaborating with others to develop mutually beneficial solutions. By working with different people with different perspectives, I am able to expand my skillset and allow me to deepen my understanding beyond what I could achieve individually.`,
+    ]
+
+  },
   transcript: {
     title: "Transcript",
     paragraphs: [
