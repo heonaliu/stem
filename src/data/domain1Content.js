@@ -1,12 +1,11 @@
 export const domain1Content = {
-  define:{
+  define: {
     title: "How I Define Excellence",
     paragraphs: [
       `I believe excellence in STEM isn’t solely defined by achieving top grades and awards, but consistently pushing beyond expectations and deepening my understanding through meaningful ways. This means actively seeking opportunities to challenge myself, whether it is advanced coursed work building fun projects, and using those opportunities to grow technically and into a better problem solver.`,
       `Excellence also means adaptability, falling back from challenges, resilience, and persistence. Throughout my journey in STEM, I’ve encountered moments where I was faced with complex problems that required me to break through setbacks, rethink my approach, and refine my skills.`,
       `Though excellence might be considered an “end product” of all our efforts through awards and trophies, my experiences have taught me that it is developed through navigating unfamiliar challenges, applying knowledge to new concepts, and collaborating with others to develop mutually beneficial solutions. By working with different people with different perspectives, I am able to expand my skillset and allow me to deepen my understanding beyond what I could achieve individually.`,
-    ]
-
+    ],
   },
   transcript: {
     title: "Transcript",
@@ -82,5 +81,21 @@ export const domain1Content = {
       `This is currently an ongoing contest. Newton North’s Programming Club is competing in the Intermediate 5 Division. S1 refers to “Short Problem for Contest 1” and P1 refers to “Programming Problem for Contest 1”. As of Contest 1 and Contest 2, I have earned full points (6) for our team, reflecting the results of my effort to strive and challenging myself to look beyond opportunities within the classroom and become a better problem solver.`,
     ],
     explainTitle: "Connecting To The Domain",
+  },
+  elsa: {
+    title: "NCLS: Emerging Leader Service Award (ELSA) 2026 - Silver Award",
+    paragraphs: [
+      `Awarded by Newton Chinese Language School (NCLS), the Emerging Leader Service Award is a new and prestigious award that recognizes and honors individuals who have demonstrated a strong commitment to volunteer service.`,
+      `As the largest nonprofit weekend language school in New England, NCLS has served as a certifying organization since 2015. The award recognizes volunteers who meet specific service hour requirements over a 12-month period. Silver Award is awarded to Young Adults (16-25 years old) with 175 - 249 hours of volunteer service.`,
+    ],
+    roleTitle: `My Role:`,
+    roleParagraphs: [
+      `During the 2024-2025 school year, I was a Math Teaching Assistant at the Newton Chinese Language School (NCLS), working with students both in the Wednesday Afterschool program and Sunday Day School. In this role, I supported students in strengthening their mathematical foundations, guided them through problem solving, and provided individualized feedback based on their work.`,
+    ],
+    explainTitle: "Why I Believe This Shows Excellence:",
+    explain: [
+      `In sophomore year, I took the initiative toward opportunities that would allow me to share my knowledge with different age groups. Teaching them math and working within the classroom not only taught me to be adaptable with my methods of approach but also to consider what learning looks like from multi-faceted perspectives. For example, someone’s learning might look like re-explaining concepts, while another’s learning might look like drawing out diagrams or hands-on activities.`,
+      `This shows excellence and recognition through teaching, resilience in solving problems, and also growing within the STEM community. Being able to teach STEM requires a strong foundation in that topic itself, so my role as a TA at NCLS demonstrates high levels of discipline and commitment.`
+    ],
   },
 };

@@ -1,13 +1,12 @@
 import Subheading from "@/components/Subheading";
 import Header from "../components/Header";
 import Card from "@/components/Card";
-import { GlowCard } from "@/components/GlowCard";
 
-import { domain1Content } from "@/data/domain1Content";
 import Transcript from "./Domain1Sections/Transcript";
 import NCWIT from "./Domain1Sections/NCWIT";
 import ACSL from "./Domain1Sections/ACSL";
 import Define from "./Domain1Sections/Define";
+import ELSA from "./Domain1Sections/ELSA";
 
 export default function Domain1() {
   return (
@@ -18,7 +17,7 @@ export default function Domain1() {
         <Transcript />
         <NCWIT />
         <ACSL />
-
+        <ELSA />
         <Subheading title="MIT Blueprint" />
         <Card>MIT Blueprint</Card>
       </div>
