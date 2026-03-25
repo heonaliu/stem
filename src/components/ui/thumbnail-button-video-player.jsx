@@ -74,17 +74,17 @@ const ThumbnailButton = ({
         whileTap={{ scale: 0.95 }}
         onClick={handleOpenModal}
         className={`
-          relative overflow-hidden rounded-2xl bg-muted dark:bg-card 
+          relative overflow-hidden rounded-2xl bg-primary-100 dark:bg-card 
           shadow-sm hover:shadow-md transition-all duration-200
           group focus:outline-none focus:ring-2 focus:ring-ring/50
-          p-2 w-max border border-border hover:cursor-pointer
+          p-2 w-full max-w-md border border-border hover:cursor-pointer
           ${className}
         `}
         aria-label={title}
       >
-        <div className="flex items-center">
+        <div className="flex flex-col sm:flex-row items-center sm:items-center">
           {/* Thumbnail Image */}
-          <div className="relative w-[70px] h-[42px] rounded-lg overflow-hidden flex-shrink-0">
+          <div className="w-full sm:w-[175px] aspect-video relative rounded-lg overflow-hidden flex-shrink-0">
             <img
               src={finalThumbnail}
               alt="Video thumbnail"
