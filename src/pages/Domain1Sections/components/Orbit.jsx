@@ -1,71 +1,76 @@
-import { Calendar, Code, FileText, User, Clock } from "lucide-react";
+import { ImagesIcon, Projector, Play, Code, Sprout, Clapperboard, Clock, FileUp} from "lucide-react";
 import RadialOrbitalTimeline from "../../../components/ui/radial-orbital-timeline";
 import logo from "../../../../src/assets/public/skilltrade-logo.png"
 const timelineData = [
   {
     id: 1,
-    title: "Planning",
-    date: "Jan 2024",
-    content: "Project planning and requirements gathering phase.",
-    category: "Planning",
-    icon: Calendar,
+    title: "Submission",
+    date: "Mar 1",
+    content: "Submitted Project on HackMIT's Website",
+    icon: FileUp,
     relatedIds: [2],
-    status: "completed",
     energy: 100,
+    link: "https://plume.hackmit.org/project/pzlck-ousva-tjzni-mhcpa"
   },
   {
     id: 2,
-    title: "Design",
-    date: "Feb 2024",
-    content: "UI/UX design and system architecture.",
-    category: "Design",
-    icon: FileText,
+    title: "GitHub",
+    date: "Mar 1",
+    content: "(Full Code) for Skill Trade. You may look under contributors and commit contributions.",
+    icon: Code,
     relatedIds: [1, 3],
-    status: "completed",
     energy: 90,
   },
   {
     id: 3,
-    title: "Development",
+    title: "Planning",
     date: "Mar 2024",
     content: "Core features implementation and testing.",
     category: "Development",
-    icon: Code,
+    icon: Sprout,
     relatedIds: [2, 4],
-    status: "in-progress",
     energy: 60,
+    link: "https://docs.google.com/document/d/1VhXALHeKuEflh3I_AO3YFSPrZiCnGgVQ4jWsbAimBzo/edit?usp=sharing"
   },
   {
     id: 4,
-    title: "Testing",
-    date: "Apr 2024",
+    title: "Presentation",
+    date: "Mar 1",
     content: "User testing and bug fixes.",
-    category: "Testing",
-    icon: User,
+    icon: Projector,
     relatedIds: [3, 5],
-    status: "pending",
     energy: 30,
+    link: "https://docs.google.com/presentation/d/1ZY4pmHHKyF9BZLrpe6WtJygd2XKi6_Z_yU4CeQNc3Ag/edit?usp=sharing"
   },
   {
     id: 5,
-    title: "Release",
-    date: "May 2024",
-    content: "Final deployment and release.",
-    category: "Release",
-    icon: Clock,
+    title: "Video Demo",
+    date: "Mar 1",
+    content: "Demo Video of Skill Trade",
+    icon: Play,
     relatedIds: [4],
-    status: "pending",
     energy: 10,
+    link: "https://www.youtube.com/watch?v=fsbw0sRnPw4"
   },
   {
     id: 6,
-    title: "NCWIT Award",
-    date: "2025",
-    content: "Description of achievement...",
-    icon: Clock,
+    title: "Photos",
+    date: "Feb 28-Mar 1",
+    content: "A few photos from the event",
+    icon: ImagesIcon,
     relatedIds: [2, 3],
     energy: 80,
-    link: "https://your-evidence-link.com",
+    link: "https://drive.google.com/drive/folders/1REDejJwWQDEeIlMgohGMKAMAD2easVio?usp=sharing",
+  },
+  {
+    id: 7,
+    title: "Vlog",
+    date: "Feb 28-Mar 1",
+    content: "Vlog of my hackathon experience posted on YouTube",
+    icon: Clapperboard,
+    relatedIds: [2, 3],
+    energy: 80,
+    link: "https://drive.google.com/drive/folders/1REDejJwWQDEeIlMgohGMKAMAD2easVio?usp=sharing",
   },
 ];
 
@@ -74,8 +79,8 @@ export default function Orbit() {
     <RadialOrbitalTimeline
       timelineData={timelineData}
       centerLogo={logo}
-      centerTitle="Heona Liu"
-      centerSubtitle="Domain 1: Excellence"
+      centerTitle="Skill Trade"
+      centerSubtitle="By Leran Tao, Heona Liu, Ryan Lee"
     />
   );
 }
