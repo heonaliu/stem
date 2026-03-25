@@ -14,10 +14,6 @@ export default function Blueprint() {
           color={"text-accent-500"}
           size="4"
         />
-        <p className="italic text-sm">
-          The official certificate for 2026 isn’t released for recipients yet so
-          this email screenshot serves as evidence.
-        </p>
         {domain1Content.blueprint.description.map((p, i) => (
           <p key={i}>{p}</p>
         ))}
