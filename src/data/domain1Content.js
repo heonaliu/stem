@@ -92,10 +92,18 @@ export const domain1Content = {
     roleParagraphs: [
       `During the 2024-2025 school year, I was a Math Teaching Assistant at the Newton Chinese Language School (NCLS), working with students both in the Wednesday Afterschool program and Sunday Day School. In this role, I supported students in strengthening their mathematical foundations, guided them through problem solving, and provided individualized feedback based on their work.`,
     ],
-    explainTitle: "Why I Believe This Shows Excellence:",
+    explainTitle: "Connecting To This Domain",
     explain: [
       `In sophomore year, I took the initiative toward opportunities that would allow me to share my knowledge with different age groups. Teaching them math and working within the classroom not only taught me to be adaptable with my methods of approach but also to consider what learning looks like from multi-faceted perspectives. For example, someone’s learning might look like re-explaining concepts, while another’s learning might look like drawing out diagrams or hands-on activities.`,
-      `This shows excellence and recognition through teaching, resilience in solving problems, and also growing within the STEM community. Being able to teach STEM requires a strong foundation in that topic itself, so my role as a TA at NCLS demonstrates high levels of discipline and commitment.`
+      `This shows excellence and recognition through teaching, resilience in solving problems, and also growing within the STEM community. Being able to teach STEM requires a strong foundation in that topic itself, so my role as a TA at NCLS demonstrates high levels of discipline and commitment.`,
     ],
+  },
+  blueprint: {
+    title: `MIT Blueprint`,
+    description: [`..`],
+    section1: "Our Project: Skill Trade",
+    section1Paragraphs: [`..`],
+    explainTitle: "Connecting To This Domain",
+    explainParagraphs: [`..`],
   },
 };
