@@ -4,6 +4,7 @@ import Subheading from "@/components/Subheading";
 import elsa from "../../assets/public/ncls-elsa-award.png";
 import { GlowCard } from "@/components/GlowCard";
 import Video from "./components/Video";
+import Orbit from "./components/Orbit";
 
 export default function Blueprint() {
   return (
@@ -49,6 +50,7 @@ export default function Blueprint() {
           ))}
         </Card>
       </div>
+      <Orbit />
     </>
   );
 }
