@@ -136,7 +136,7 @@ export default function RadialOrbitalTimeline({
           }}
         >
           <div className="absolute flex flex-col items-center justify-center z-10">
-            <div className="w-16 h-16 rounded-full bg-gradient-to-br from-purple-500 via-blue-500 to-teal-500 flex items-center justify-center shadow-lg overflow-hidden">
+            <div className="w-16 h-16 rounded-full bg-accent-500/20 via-blue-500 to-teal-500 flex items-center justify-center shadow-lg overflow-hidden">
               {centerLogo ? (
                 <img
                   src={centerLogo}

@@ -1,6 +1,6 @@
 import { Calendar, Code, FileText, User, Clock } from "lucide-react";
 import RadialOrbitalTimeline from "../../../components/ui/radial-orbital-timeline";
-
+import logo from "../../../../src/assets/public/skilltrade-logo.png"
 const timelineData = [
   {
     id: 1,
@@ -73,7 +73,7 @@ export default function Orbit() {
   return (
     <RadialOrbitalTimeline
       timelineData={timelineData}
-      
+      centerLogo={logo}
       centerTitle="Heona Liu"
       centerSubtitle="Domain 1: Excellence"
     />
