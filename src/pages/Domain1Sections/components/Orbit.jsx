@@ -25,7 +25,7 @@ const timelineData = [
   {
     id: 3,
     title: "Planning",
-    date: "Mar 2024",
+    date: "Feb 28-Mar 1",
     content: "Project planning & scaffolding took place here. All ideas developed, planning, and resources.",
     category: "Development",
     icon: Sprout,
