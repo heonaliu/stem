@@ -1,6 +1,7 @@
 import Header from "../components/Header";
 import Quotes1 from "./Domain2Sections/components/Quotes1";
 import IntRobo from "./Domain2Sections/IntRobo";
+import NclsGrowth from "./Domain2Sections/NclsGrowth";
 import PenguinGrowth from "./Domain2Sections/PenguinGrowth";
 
 export default function Domain2() {
@@ -11,6 +12,7 @@ export default function Domain2() {
         <IntRobo />
         <Quotes1 />
         <PenguinGrowth />
+        <NclsGrowth />
       </div>
     </>
   );
