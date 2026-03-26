@@ -20,11 +20,11 @@ export default function Hack() {
         ))}
       </Card>
 
-      <div className="flex flex-wrap gap-6 items-center justify-center">
+      <div className="flex flex-wrap gap-6 items-start justify-center">
         <div className="w-full flex justify-center md:w-auto">
           <GlowCard link="https://nnhs-unplugged-28c10.web.app/" image={hack} />
         </div>
-        <div className="w-full md:flex-1 min-w-[250px]">
+        <div className="w-full md:flex-1 min-w-[450px]">
           <Card>
             <Subheading
               title={domain3Content.hack.section1Title}

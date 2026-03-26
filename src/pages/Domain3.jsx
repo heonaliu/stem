@@ -1,4 +1,5 @@
 import Header from "../components/Header";
+import CSA from "./Domain3Sections/CSA";
 import Hack from "./Domain3Sections/Hack";
 import Tako from "./Domain3Sections/Tako";
 import WebDev from "./Domain3Sections/WebDev";
@@ -10,6 +11,7 @@ export default function Domain3() {
       <Hack />
       <Tako />
       <WebDev />
+      <CSA />
     </div>
   );
 }

@@ -22,7 +22,7 @@ export default function ELSA() {
         ))}
       </Card>
 
-      <div className="flex flex-wrap gap-6 items-center justify-center">
+      <div className="flex flex-wrap gap-6 items-start justify-center">
         {/* GlowCard */}
         <div className="w-full flex justify-center md:w-auto">
           <GlowCard

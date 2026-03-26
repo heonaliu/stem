@@ -19,11 +19,11 @@ export default function PenguinGrowth() {
         ))}
       </Card>
 
-      <div className="flex flex-wrap gap-6 items-center justify-center">
+      <div className="flex flex-wrap gap-6 items-start justify-center">
         <div className="w-full flex justify-center md:w-auto">
           <GlowCard image={penguin} />
         </div>
-        <div className="w-full md:flex-1 min-w-[250px]">
+        <div className="w-full md:flex-1 min-w-[450px]">
           <Card>
             <Subheading
               title={domain2Content.penguin.section1Title}

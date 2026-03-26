@@ -17,20 +17,37 @@ export const domain3Content = {
 
   tako: {
     title: "Project: TakoFocus",
-    desc: [`TakoFocus was developed as a part of an AI Agent Hackathon I found on YouTube. Building TakoFocus, I challenged myself to build a functional productivity-focused web application within a limited timeframe. While the hackathon centered around AI Agents, I made use of this opportunity to further strengthen my web development and explore how AI tools can support my process.`],
+    desc: [
+      `TakoFocus was developed as a part of an AI Agent Hackathon I found on YouTube. Building TakoFocus, I challenged myself to build a functional productivity-focused web application within a limited timeframe. While the hackathon centered around AI Agents, I made use of this opportunity to further strengthen my web development and explore how AI tools can support my process.`,
+    ],
     section1Title: "What I Built",
-    section1: [`TakoFocus was built as a productivity-based web application designed to help its users stay focused and manage tasks effectively. I worked on structuring a ReactJS-based application, implementing features that provided a smooth user experience. More can be read under "TakoFocus Summary"`],
+    section1: [
+      `TakoFocus was built as a productivity-based web application designed to help its users stay focused and manage tasks effectively. I worked on structuring a ReactJS-based application, implementing features that provided a smooth user experience. More can be read under "TakoFocus Summary"`,
+    ],
     section2Title: "What I Learnt",
-    section2: [`Through the building of TakoFocus, I reinforced my knowledge of React JS and worked with separate components to create a cohesive web application. This project strengthened my critical and analytical problem solving skills, absolutely necessary when my approaches didn’t work.`],
+    section2: [
+      `Through the building of TakoFocus, I reinforced my knowledge of React JS and worked with separate components to create a cohesive web application. This project strengthened my critical and analytical problem solving skills, absolutely necessary when my approaches didn’t work.`,
+    ],
     section3Title: "Use of AI as a Learning Tool",
-    section3: [`During TakoFocus, I used tools like ChatGPT as a support resource to explore new and unfamiliar concepts such as implementing a Pomodoro Timer and linking frontend with Supabase (a backend system for my databases). Rather than simply prompting it to create a full web app, I used it to understand the logic behind why its answers. Understanding why AI prompted me specific solutions and not others further allowed me to actively stay engaged and learn throughout the development process.`],
+    section3: [
+      `During TakoFocus, I used tools like ChatGPT as a support resource to explore new and unfamiliar concepts such as implementing a Pomodoro Timer and linking frontend with Supabase (a backend system for my databases). Rather than simply prompting it to create a full web app, I used it to understand the logic behind why its answers. Understanding why AI prompted me specific solutions and not others further allowed me to actively stay engaged and learn throughout the development process.`,
+    ],
     explainTitle: "Connecting To The Domain",
-    explain: [`This project is a clear commitment to personal study because it was self-driven and required me to independently learn new tools and skills on the go. By actively looking for opportunities and engaging with the learning process, I believe I go beyond expectations within classroom learning as I continue to develop my skills in hands-on experiences.`],
+    explain: [
+      `This project is a clear commitment to personal study because it was self-driven and required me to independently learn new tools and skills on the go. By actively looking for opportunities and engaging with the learning process, I believe I go beyond expectations within classroom learning as I continue to develop my skills in hands-on experiences.`,
+    ],
   },
 
   webDev: {
     title: "Summer Web Development Study",
-    desc: [`...`]
+    desc: [`...`],
+  },
+
+  csa: {
+    title: "Self Studying AP Computer Science A",
+    desc: [`...`],
+    section1Title: "Connecting To Domain",
+    section1: [`...`]
 
   }
 };

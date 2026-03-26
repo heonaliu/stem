@@ -18,7 +18,7 @@ export default function NCWIT() {
         ))}
       </Card>
 
-      <div className="flex flex-wrap gap-6 items-center justify-center">
+      <div className="flex flex-wrap gap-6 items-start justify-center">
         <div className="w-full flex justify-center md:w-auto">
           <GlowCard
             link="https://www.aspirations.org/people/heona-l/155442"
