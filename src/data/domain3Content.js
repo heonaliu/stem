@@ -27,4 +27,10 @@ export const domain3Content = {
     explainTitle: "Connecting To The Domain",
     explain: [`This project is a clear commitment to personal study because it was self-driven and required me to independently learn new tools and skills on the go. By actively looking for opportunities and engaging with the learning process, I believe I go beyond expectations within classroom learning as I continue to develop my skills in hands-on experiences.`],
   },
+
+  webDev: {
+    title: "Summer Web Development Study",
+    desc: [`...`]
+
+  }
 };

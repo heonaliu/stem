@@ -1,6 +1,7 @@
 import Header from "../components/Header";
 import Hack from "./Domain3Sections/Hack";
 import Tako from "./Domain3Sections/Tako";
+import WebDev from "./Domain3Sections/WebDev";
 
 export default function Domain3() {
   return (
@@ -8,6 +9,7 @@ export default function Domain3() {
       <Header domain="3" title="Commitment to Personal Study" />
       <Hack />
       <Tako />
+      <WebDev />
     </div>
   );
 }
