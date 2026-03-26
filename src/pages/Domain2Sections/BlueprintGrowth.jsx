@@ -52,7 +52,7 @@ export default function BlueprintGrowth() {
       <div className="w-full mt-60 mb-60 flex items-center justify-center">
         <Orbit />
       </div>
-      <div className="w-full flex-1 min-w-[250px] ">
+      <div className="w-full pb-16 flex-1 min-w-[250px] ">
         <Card>
           <Subheading
             title={domain1Content.blueprint.explainTitle}
