@@ -1,4 +1,4 @@
-import { ImagesIcon, Projector, Play, Code, Sprout, Clapperboard, Clock, FileUp} from "lucide-react";
+import { ImagesIcon, FileBadge, Play, Code, Sprout, ScrollTextIcon, Clapperboard, Clock, FileUp} from "lucide-react";
 import RadialOrbitalTimeline from "../../../components/ui/radial-orbital-timeline";
 import logo from "../../../../src/assets/public/skilltrade-logo.png"
 const timelineData = [
@@ -7,8 +7,8 @@ const timelineData = [
     title: "Certificate",
     date: "Mar 1",
     content: "Certificate of Participation",
-    icon: FileUp,
-    relatedIds: [2,5],
+    icon: FileBadge,
+    relatedIds: [2],
     energy: 100,
     link: "https://plume.hackmit.org/project/pzlck-ousva-tjzni-mhcpa"
   },
@@ -38,7 +38,7 @@ const timelineData = [
     title: "Summary",
     date: "Oct 2025",
     content: "Big picture ideas, why it matters, what makes it unique...",
-    icon: Projector,
+    icon: ScrollTextIcon,
     relatedIds: [3, 5],
     energy: 30,
     link: "https://drive.google.com/file/d/1gUOT7VaHvAkrhrCX34DRkAM78-ThGy1Z/view?usp=sharing"
@@ -49,7 +49,7 @@ const timelineData = [
     date: "Oct 2025",
     content: "Quick demo video on its features and future plans.",
     icon: Play,
-    relatedIds: [4,1],
+    relatedIds: [4,1,3],
     energy: 10,
     link: "https://www.youtube.com/watch?v=yf2oxju56gw"
   },
@@ -59,7 +59,7 @@ const timelineData = [
     date: "Feb 28-Mar 1",
     content: "Several screenshots of the web application",
     icon: ImagesIcon,
-    relatedIds: [7],
+    relatedIds: [3],
     energy: 80,
     link: "https://drive.google.com/drive/folders/1fql5pv7NYAJZ3EpiSBOP-d3E-o0FpzvF",
   },

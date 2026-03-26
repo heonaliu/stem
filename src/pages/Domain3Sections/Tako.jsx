@@ -48,6 +48,7 @@ export default function Tako() {
           >
             TakoFocus Summary <ArrowUpRight className="ml-2 h-4 w-4" />
           </Button>
+          <p className="italic text-sm">*Feb 20, 2026 UPDATE: I decided to keep this web application simpler with just a pomodoro timer and remove the task feature due to several issues with Supabase database.</p>
           </Card>
           <div className="flex-1 py-6 min-w-[250px] max-w-auto">
             <Card>
