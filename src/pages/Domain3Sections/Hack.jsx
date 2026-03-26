@@ -44,6 +44,16 @@ export default function Hack() {
           >
             GitHub <ArrowUpRight className="ml-2 h-4 w-4" />
           </Button>
+
+          
+
+          <Button
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://github.com/heonaliu/unplugged-hackathon/commits/main/"
+          >
+            GitHub Commits <ArrowUpRight className="ml-2 h-4 w-4" />
+          </Button>
           </Card>
         </div>
         
