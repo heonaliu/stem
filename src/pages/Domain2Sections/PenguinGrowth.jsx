@@ -3,6 +3,7 @@ import Subheading from "@/components/Subheading";
 import { domain2Content } from "@/data/domain2Content";
 import { GlowCard } from "@/components/GlowCard";
 import penguin from "@/assets/public/penguin-coding.png";
+import ExpandCard from "@/components/ExpandCard";
 
 export default function PenguinGrowth() {
   return (
@@ -37,7 +38,7 @@ export default function PenguinGrowth() {
         </div>
       </div>
       <div className="w-full flex flex-col gap-6 max-w-auto justify-center">
-        <Card>
+        <ExpandCard expandable>
           <Subheading
             title={domain2Content.penguin.section2Title}
             color={"text-primary-500"}
@@ -46,7 +47,7 @@ export default function PenguinGrowth() {
           {domain2Content.penguin.section2.map((p, i) => (
             <p key={i}>{p}</p>
           ))}
-        </Card>
+        </ExpandCard>
       </div>
     </>
   );
