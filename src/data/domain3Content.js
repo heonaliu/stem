@@ -14,4 +14,19 @@ export const domain3Content = {
       `While learning this, I had to regenerate my API keys several times in order to make sure the current one was exposed (this is especially evident in the image below under my commits). I had to regenerate the key not once, but twice. This moment reinforced the importance of security in development and taught me to carefully manage sensitive data (keys, IDs) before pushing code to GitHub.`,
     ],
   },
+
+  tako: {
+
+    title: "Project: TakoFocus",
+    desc: [`..`],
+    section1Title: "What I Built",
+    section1: [`...`],
+    section2Title: "What I Learnt",
+    section2: [`....`],
+    section3Title: "Use of AI as a Learning Tool",
+    section3: [`...`],
+    explainTitle: "Connecting To The Domain",
+    explain: [`.....`],
+
+  }
 };
