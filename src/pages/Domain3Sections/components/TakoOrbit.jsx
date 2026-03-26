@@ -1,6 +1,6 @@
 import { ImagesIcon, FileBadge, Play, Code, Sprout, ScrollTextIcon, Clapperboard, Clock, FileUp} from "lucide-react";
 import RadialOrbitalTimeline from "../../../components/ui/radial-orbital-timeline";
-import logo from "../../../../src/assets/public/skilltrade-logo.png"
+import logo from "../../../../src/assets/public/tako-ring.png"
 const timelineData = [
   {
     id: 1,
@@ -70,8 +70,8 @@ export default function TakoOrbit() {
     <RadialOrbitalTimeline
       timelineData={timelineData}
       centerLogo={logo}
-      centerTitle="Skill Trade"
-      centerSubtitle="By Leran Tao, Heona Liu, Ryan Lee"
+      centerTitle="TakoFocus"
+      centerSubtitle="By Heona Liu"
     />
   );
 }
