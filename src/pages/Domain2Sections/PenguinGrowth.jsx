@@ -47,6 +47,14 @@ export default function PenguinGrowth() {
           {domain2Content.penguin.section2.map((p, i) => (
             <p key={i}>{p}</p>
           ))}
+          <p>---</p>
+          <p className="text-sm italic">
+            *the student's name has been changed for privacy purposes
+          </p>
+
+          {domain2Content.penguin.reflection.map((p, i) => (
+            <p key={i}>{p}</p>
+          ))}
         </ExpandCard>
       </div>
     </>
