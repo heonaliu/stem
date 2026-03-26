@@ -1,4 +1,5 @@
 import Header from "../components/Header";
+import BlueprintGrowth from "./Domain2Sections/BlueprintGrowth";
 import Quotes1 from "./Domain2Sections/components/Quotes1";
 import IntRobo from "./Domain2Sections/IntRobo";
 import NclsGrowth from "./Domain2Sections/NclsGrowth";
@@ -13,6 +14,7 @@ export default function Domain2() {
         <Quotes1 />
         <PenguinGrowth />
         <NclsGrowth />
+        <BlueprintGrowth />
       </div>
     </>
   );
