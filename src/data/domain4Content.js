@@ -11,7 +11,7 @@ export const domain4Content = {
       `Additionally, I demonstrate initiative and commitment by continuing after returning from my (4 month) exchange program, exemplifying my dedication to supporting my students and continuously fostering curiosity in their learning.`,
       `Lastly, NCLS recognizes outstanding volunteers, volunteer leaders for exceptional work over the year. The Emerging Leader Service Award (ELSA) recognizes volunteers who meet specific service hour requirements and is offered to appreciate leaders who strive to make a difference in the Greater Boston community. It is awarded at three levels of recognition: Gold, Silver, and Bronze Award. Further details of the award can be found under Excellence. I believe this award further reflects my active participation within the community in general and dedication to work toward improving education in STEM for many.`,
       `Overall, my role as a Math TA reflects clear commitment to STEM citizenship by fostering growth of others, helping students build a stronger foundation toward STEM.`,
-      `Currently, I am still working with NCLS every week on Fridays After School, tutoring students in math and helping them find joy in problem solving.`,
+      `Currently, I am still working with NCLS every week on Fridays for an Afterschool Program, tutoring students in math and helping them find joy in problem solving.`,
     ],
   },
 
