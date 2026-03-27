@@ -32,7 +32,7 @@ export const domain3Content = {
     section3: [
       `During TakoFocus, I used tools like ChatGPT as a support resource to explore new and unfamiliar concepts such as implementing a Pomodoro Timer and linking frontend with Supabase (a backend system for my databases). Rather than simply prompting it to create a full web app, I used it to understand the logic behind why its answers. Understanding why AI prompted me specific solutions and not others further allowed me to actively stay engaged and learn throughout the development process.`,
     ],
-    explainTitle: "Connecting To The Domain",
+    explainTitle: "Connecting To This Domain",
     explain: [
       `This project is a clear commitment to personal study because it was self-driven and required me to independently learn new tools and skills on the go. By actively looking for opportunities and engaging with the learning process, I believe I go beyond expectations within classroom learning as I continue to develop my skills in hands-on experiences.`,
     ],
@@ -46,14 +46,14 @@ export const domain3Content = {
   csa: {
     title: "Self Studying AP Computer Science A",
     desc: [`...`],
-    section1Title: "Connecting To The Domain",
+    section1Title: "Connecting To This Domain",
     section1: [`...`]
   },
 
   thisApp: {
     title: "This Website",
     desc: [`Yes! I worked really hard to build this website not only for the STEM Seal but also so I can look back and document my experiences and learning journey in a way that builds on my Computer Science and STEM disciplines.`],
-    section1Title: "Connecting To The Domain",
+    section1Title: "Connecting To This Domain",
     section1: [`Using an IDE tracker that tracks the amount of time I spend coding. Through coding alone and balancing school work, I spent over 15 hours alone in one week building this. This website not only builds on my learning of web development, it also strongly supports my pursuit of STEM and commitment independent study.`,
         `My favorite part about this journey is that I learned how to break down reusable parts in this site like the cards, orbit layout, and headings into components. Breaking them down into components allows me to write efficient clean code that is organized and flexible to adjust.`,
         `Some challenges I faced were working with styles. Building on Tailwind CSS styling I learned in the building of the Hackathon Website, I decided to practice again using it here.`,
