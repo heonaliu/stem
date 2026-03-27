@@ -26,4 +26,18 @@ export const domain4Content = {
       `Collaborating with the other organizers, my role was the marketing and graphics creation for posters to prepare for the event. Additionally, reaching out toward sponsorship opportunities.`,
     ],
   },
+
+  pen: {
+    title: "Penguin Coding School",
+    desc: [
+      `Penguin Coding School is a learning program focused on teaching kids and teens how to code and build projects with real programming skills. Its main purpose is to make coding fun, hands-on, and creative for students, supporting them to build projects they care about instead of memorizing theory.`,
+    ],
+    section1Title: "Connecting To This Domain",
+    section1: [
+      `I believe this experience represents my commitment to STEM citizenship through my ability to take on a leadership role in supporting and guiding young students in their STEM learning. As a coding teacher at Penguin Coding School, I am not only responsible for delivering content, but also adapting the way I teach to meet the needs of the students, ensuring they are intellectually engaged. In this way each student has a personalized learning experience.`,
+      `Through my experience of working with Noah, I learned how effective leadership in STEM isn’t contingent on completing a strict lesson plan, but rather about creating an open environment to support learners in ways that allow them to succeed. By adjusting my approach to support Noah’s style of learning, I was able to help build up his confidence and engage more deeply with the critical thinking concepts.`,
+      `As a teacher and role model in my community, being a coding teacher grows beyond peer collaboration requiring me to take initiative, lead instruction in a way that directly impacts students’ learning in STEM. Being a coding teacher strongly demonstrates initiative to find opportunities to apply learning outside the classroom and supports my commitment to foster inclusive and supportive STEM environments. `,
+      `In conclusion, my role as a teacher demonstrates STEM citizenship by building on the growth of others in STEM, encouraging curiosity and being a leader toward a stronger foundation for the future involvement in this field.`,
+    ],
+  },
 };
