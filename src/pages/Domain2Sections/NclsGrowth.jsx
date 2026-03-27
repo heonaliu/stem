@@ -18,7 +18,10 @@ export default function NclsGrowth() {
         {domain2Content.nclsGrowth.purpose.map((p, i) => (
           <p key={i}>{p}</p>
         ))}
-        <p className="text-sm italic">*2024-2025 Spring: I went on a 4-month cultural exchange program and studied abroad. So, I had to pause volunteering for a bit.</p>
+        <p className="text-sm italic">
+          *2024-2025 Spring: I went on a 4-month cultural exchange program and
+          studied abroad. So, I had to pause volunteering for a bit.
+        </p>
       </Card>
 
       <div className="flex flex-wrap gap-6 items-center justify-center">
@@ -27,10 +30,10 @@ export default function NclsGrowth() {
         </div>
       </div>
       <div className="w-full flex justify-center md:w-auto">
-          <GlowCard image={nclsGrowth2} />
-        </div>
+        <GlowCard image={nclsGrowth2} />
+      </div>
       <div className="w-full flex flex-col gap-6 max-w-auto justify-center">
-        <ExpandCard >
+        <ExpandCard>
           <Subheading
             title={domain2Content.nclsGrowth.growthTitle}
             color={"text-primary-500"}
