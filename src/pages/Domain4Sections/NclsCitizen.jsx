@@ -43,9 +43,13 @@ export default function NclsCitizen() {
           {domain4Content.ncls.explain.map((p, i) => (
             <p key={i}>{p}</p>
           ))}
-          <p className="text-sm italic">
+          <p>
             To learn more about{" "}
-            <Link to="/domain1" className="text-primary-500 hover:underline">
+            <Link
+              to="/domain1"
+              className="text-primary-500 hover:underline"
+              onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+            >
               Excellence
             </Link>
             , check out this page.
