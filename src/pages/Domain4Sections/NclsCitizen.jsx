@@ -40,7 +40,6 @@ export default function NclsCitizen() {
       <div className="flex flex-wrap gap-6 items-start justify-center">
               <div className="w-full flex justify-center md:w-auto">
                 <GlowCard
-                  link="https://docs.google.com/document/d/1mfhwovyyZTbpKXVuWuJ_qqtkyQX3MBVJ/edit?usp=sharing&ouid=101330965485149050267&rtpof=true&sd=true"
                   image={tutor}
                 />
               </div>
@@ -53,7 +52,7 @@ export default function NclsCitizen() {
                   />
       
                   <p className="italic text-sm">
-                    click the image to be redirected to my journal & reflections!
+                    Image: tutoring Raymond on geometry!
                   </p>
       
                   {domain4Content.ncls.explain.map((p, i) => (
