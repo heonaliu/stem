@@ -5,6 +5,7 @@ import { domain3Content } from "@/data/domain3Content";
 import hack from "@/assets/public/unplugged-cover.png";
 import Button from "@/components/Button";
 import { ArrowUpRight } from "lucide-react";
+import commits from "@/assets/public/commits.png"
 
 export default function Hack() {
   return (
@@ -38,25 +39,25 @@ export default function Hack() {
               <p key={i}>{p}</p>
             ))}
             <Button
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://github.com/heonaliu/unplugged-hackathon"
-          >
-            GitHub <ArrowUpRight className="ml-2 h-4 w-4" />
-          </Button>
-    
-          
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://github.com/heonaliu/unplugged-hackathon"
+            >
+              GitHub <ArrowUpRight className="ml-2 h-4 w-4" />
+            </Button>
 
-          <Button
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://github.com/heonaliu/unplugged-hackathon/commits/main/"
-          >
-            GitHub Commits <ArrowUpRight className="ml-2 h-4 w-4" />
-          </Button>
+            <Button
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://github.com/heonaliu/unplugged-hackathon/commits/main/"
+            >
+              GitHub Commits <ArrowUpRight className="ml-2 h-4 w-4" />
+            </Button>
           </Card>
         </div>
-        
+        <div className="w-full flex justify-center md:w-auto">
+          <GlowCard image={commits} />
+        </div>
       </div>
     </>
   );

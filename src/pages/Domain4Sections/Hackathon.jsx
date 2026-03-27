@@ -2,7 +2,7 @@ import Card from "@/components/Card";
 import Subheading from "@/components/Subheading";
 import { domain4Content } from "@/data/domain4Content";
 import { GlowCard } from "@/components/GlowCard";
-import hackathon from "@/assets/public/hackathon.png"
+import hackathon from "@/assets/public/hackathon.png";
 import ExpandCard from "@/components/ExpandCard";
 import { Link } from "react-router-dom";
 
@@ -22,7 +22,10 @@ export default function Hackathon() {
 
       <div className="flex flex-wrap gap-6 items-center justify-center">
         <div className="w-full flex justify-center md:w-auto">
-          <GlowCard link="https://unplugged.nnhsprogramming.club/" image={hackathon} />
+          <GlowCard
+            link="https://unplugged.nnhsprogramming.club/"
+            image={hackathon}
+          />
         </div>
       </div>
       <div className="w-full flex flex-col gap-6 max-w-auto justify-center">
