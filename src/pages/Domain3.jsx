@@ -3,6 +3,7 @@ import QuoteCSA from "./Domain3Sections/components/QuoteCSA";
 import CSA from "./Domain3Sections/CSA";
 import Hack from "./Domain3Sections/Hack";
 import Tako from "./Domain3Sections/Tako";
+import ThisApp from "./Domain3Sections/ThisApp";
 import WebDev from "./Domain3Sections/WebDev";
 
 export default function Domain3() {
@@ -14,6 +15,7 @@ export default function Domain3() {
       <WebDev />
       <CSA />
       <QuoteCSA />
+      <ThisApp />
     </div>
   );
 }
