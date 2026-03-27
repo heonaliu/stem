@@ -18,7 +18,7 @@ const testimonialsData = [
     initials: "RC",
     name: "Rebekah Collipp",
     role: "AP Computer Science A Teacher",
-    quote: "xyz",
+    quote: "What distinguishes Heona most is her intellectual curiosity and desire to apply her learning beyond the classroom. She regularly explores concepts beyond project requirements and seeks out authentic experiences in computer science, including hackathons, programming competitions, and independent web development projects. She was recently awarded an NCWIT 2026 Massachusetts Affiliate Honorable Mention. Her enthusiasm for building, collaborating, and learning within the broader STEM commmunity reflects a genuine commitment to the field.",
     tags: [{ text: "Technology", type: "featured"}],
     stats: [
       { icon: Users, text: "AP Homeschoolers Teacher" },
