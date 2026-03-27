@@ -14,4 +14,16 @@ export const domain4Content = {
       `Currently, I am still working with NCLS every week on Fridays After School, tutoring students in math and helping them find joy in problem solving.`,
     ],
   },
+
+  hackathon: {
+    title: "Unplugged Hackathon",
+    desc: [
+      `As part of NNHS Programming Club’s initiative to organize a hackathon later this spring (tentatively May 23, 2026) in collaboration with NSHS, I contributed by helping organize the event through marketing, graphics, and finding sponsorships. Unplugged Hackathon's purpose is to engage high school students in computer science, and expose beginner students to STEM.`,
+    ],
+    explainTitle: "Connecting To This Domain",
+    explain: [
+      `Unplugged supports the initiative to build a larger, stronger STEM community and gives beginners and high school students a fun event to explore their computer science skills. This supports organization of STEM-related school/community events.`,
+      `Collaborating with the other organizers, my role was the marketing and graphics creation for posters to prepare for the event. Additionally, reaching out toward sponsorship opportunities.`,
+    ],
+  },
 };
