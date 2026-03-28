@@ -12,7 +12,7 @@ import Conclusion from "./Domain1Sections/Conclusion";
 
 export default function Domain1() {
   return (
-    <div className="p-8 flex flex-col gap-8 items-center">
+    <div className="p-8 flex flex-col gap-8 pb-24 items-center">
       <div className="w-full max-w-5xl flex flex-col gap-8">
         <Header domain="1" title="Excellence In Disciplines" />
         <Define />
