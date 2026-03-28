@@ -10,39 +10,39 @@ import web6 from "@/assets/public/web/web6.png";
 const web = [
   {
     src: web1,
-    title: "Early Stages of our Build",
+    title: "Javascript Basics",
     description:
-      "This was when we first uploaded code onto the Arduino and got it to move forward.",
+      "Learned the different syntax, data types, truthy falsy values, type conversion and coercion, and how to use functions. I also learned how to use the console to test out my code and debug it.",
   },
   {
     src: web2,
-    title: "Battery Holder Fix",
+    title: "Conditionals with Javascript",
     description:
-      "Our robot was assembled however, there were no suitable holes that would securely attach the battery stand. However, I found a hole on the side of the L bracket. We removed one screw from the structure in order to fit a screw through. Not only were we able to secure the battery stand onto the structure, it could turn rotate slightly, allowing us to easily take the battery in and out.",
+      "Learned about if statements, conditionals, loose and strict equality operators, logical operators, switch statements and more.",
   },
   {
     src: web3,
-    title: "Problem Solving: Front Wheel",
+    title: "Web Stack Bootcamp Independently Paced",
     description:
-      "The measurements our class was given instructed us to drill holes in specific areas of the bracket. Turns out, those measurement didn't align with the front wheel we were given. Seeing this, we used several flat brackets in order to adjust the alignment. Eventually, we were able engineer our way around this issue, proving that we can find solutions when facing obstacles in our build.",
+      "Learned the basics of HTML, internet protocols, basic html tags, and how to structure a simple webpage.",
   },
   {
     src: web4,
-    title: "Progress Check",
+    title: "Web Stack: CSS Basics",
     description:
-      "This is when we were connecting the wires with the ESC, Arduino, and battery",
+      "Learned Cascading Style Sheets (CSS). I learned how styling is like a waterfall, styling priorities, classes, ids, and attributes.",
   },
   {
     src: web5,
-    title: "Progress Check",
+    title: "CSS Properties",
     description:
-      "This is when we were connecting the wires with the ESC, Arduino, and battery",
+      "Margins, padding, borders, and box model. I learned how to use the console and see the styling properties applied to my webpage.",
   },
   {
     src: web6,
-    title: "Progress Check",
+    title: "More Advanced CSS",
     description:
-      "This is when we were connecting the wires with the ESC, Arduino, and battery",
+      "Touched on key topics like media queries, inline displays, flexbox, and grid. I also learned how to use the developer tools to inspect and edit our code.",
   },
 ];
 
