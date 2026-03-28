@@ -11,37 +11,37 @@ const acslItems = [
   {
     src: acsl4,
     title: "ACSL Contest 2:",
-    description: "Worked through competitive programming problems...",
+    description: "Programming Problem: Classifying License Plates - Mapped Out Possibilities, making the coding part much easier for me.",
   },
   {
     src: acsl3,
-    title: "Problem Solving",
-    description: "Focused on algorithmic thinking and efficiency...",
+    title: "ACSL Contest 2:",
+    description: "Short Answer Problem Work: Solving a problem with Bit-String Flicking and one that is List Processing Language (LISP).",
   },
   {
     src: acsl2,
-    title: "Team Collaboration",
-    description: "Collaborated with peers to solve challenges...",
+    title: "ACSL Contest 2:",
+    description: "Short Answer Problem Work: Solving a problem with Bit-String Flicking and conversion from prefix/postfix/infix notation.",
   },
   {
     src: acsl5,
-    title: "Team",
-    description: "Collaborated with peers to solve challenges...",
+    title: "ACSL Contest 2:",
+    description: "Short Answer Problem Work: Prior to the contest, I practiced Bit-String flicking and LISP.",
   },
   {
     src: acsl6,
-    title: "Team Collaboration",
-    description: "Collaborated with peers to solve challenges...",
+    title: "ACSL Contest 2:",
+    description: "More prefix/postfix/infix practice practice.",
   },
   {
     src: acsl7,
-    title: " Collaboration",
-    description: "Collaborated with peers to solve challenges...",
+    title: "More Conversion Practice:",
+    description: "This was prior to the contest.",
   },
   {
     src: acsl8,
-    title: "Team Collaboration",
-    description: " with peers to solve challenges...",
+    title: "Bit String Flicking and Conversion Practice:",
+    description: "Prior to the contest, I continued to practice postfix/prefix/infix and Bit String Flicking problems.",
   },
 ];
 

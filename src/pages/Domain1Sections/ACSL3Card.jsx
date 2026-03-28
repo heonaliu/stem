@@ -9,22 +9,22 @@ const acslItems = [
   {
     src: acsl2,
     title: "ACSL Contest 3:",
-    description: "Worked through competitive programming problems...",
+    description: "First phase was understanding the problem and mapping out what it would look like.",
   },
   {
     src: acsl3,
     title: "Problem Solving",
-    description: "Focused on algorithmic thinking and efficiency...",
+    description: "Started going around the best way to accomplish my goal by pseudocoding.",
   },
   {
     src: acsl4,
-    title: "Team Collaboration",
-    description: "Collaborated with peers to solve challenges...",
+    title: "One Game Run Through",
+    description: "Ran through one test case and tried to see any conditionals that I was checking in order to incorporate it into my program.",
   },
   {
     src: acsl1,
-    title: "Team",
-    description: "Collaborated with peers to solve challenges...",
+    title: "One Game Run Through (continued)",
+    description: "Continuation of the example in the previous slide.",
   },
 ];
 
