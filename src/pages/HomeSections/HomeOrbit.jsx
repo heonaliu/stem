@@ -5,15 +5,9 @@ import {
   Brain,
   TrendingUp,
   Book,
-  Projector,
-  Play,
-  Code,
-  Sprout,
   Home,
-  Clapperboard,
-  Clock,
-  FileUp,
 } from "lucide-react";
+
 import RadialOrbitalTimeline from "@/components/ui/radial-orbital-timeline";
 import logo from "../../assets/public/skilltrade-logo.png";
 import { useNavigate } from "react-router-dom";
@@ -30,7 +24,7 @@ const timelineData = [
   {
     id: 1,
     title: "Excellence In The Discipline",
-    date: "Mar 1",
+    date: "2026",
     content: "Our team's submitted project on offical HackMIT's website.",
     icon: Book,
     relatedIds: [2, 5],
@@ -39,8 +33,8 @@ const timelineData = [
   },
   {
     id: 2,
-    title: "Growth Over Time",
-    date: "Mar 1",
+    title: "Significant Growth Over Time",
+    date: "2026",
     content:
       "(Full Code) for Skill Trade. You may look under contributors and commit contributions.",
     icon: TrendingUp,
@@ -51,7 +45,7 @@ const timelineData = [
   {
     id: 3,
     title: "Commitment to Personal Study",
-    date: "Feb 28-Mar 1",
+    date: "2026",
     content:
       "Project planning & scaffolding took place here. All ideas developed, planning, and resources.",
     category: "Development",
@@ -62,8 +56,8 @@ const timelineData = [
   },
   {
     id: 4,
-    title: "STEM citizenship",
-    date: "Mar 1",
+    title: "Commitment to STEM Citizenship",
+    date: "2026",
     content:
       "Presentation slides we created for judging and pitching our project.",
     icon: Users,
@@ -73,8 +67,8 @@ const timelineData = [
   },
   {
     id: 5,
-    title: "Connections between STEM",
-    date: "Mar 1",
+    title: "Connections between STEM Disciplines",
+    date: "2026",
     content: "Quick 1 Min Demo Video of our Project Skill Trade in action!",
     icon: LinkIcon,
     relatedIds: [4, 1],
@@ -84,7 +78,6 @@ const timelineData = [
 ];
 
 export default function HomeOrbit() {
-  const navigate = useNavigate();
   return (
     <RadialOrbitalTimeline
       timelineData={timelineData}
@@ -92,6 +85,7 @@ export default function HomeOrbit() {
       centerSubtitle="Heona Liu"
       showOrbitalLabels={false}
       enablePageLinks={true}
+      showNodes={false}
     />
   );
 }

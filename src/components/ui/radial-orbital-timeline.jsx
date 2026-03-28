@@ -12,6 +12,7 @@ export default function RadialOrbitalTimeline({
   centerSubtitle = "STEM Seal",
   showOrbitalLabels = true,
   enablePageLinks = false,
+  showNodes = true,
 }) {
   const [expandedItems, setExpandedItems] = useState({});
   const [viewMode, setViewMode] = useState("orbital");
@@ -291,7 +292,7 @@ export default function RadialOrbitalTimeline({
                           )}
                         </div>
                       )}
-                      {item.relatedIds.length > 0 && (
+                      {item.relatedIds.length > 0 && showNodes && (
                         <div className="mt-4 pt-3 border-t border-white/10">
                           <div className="flex items-center mb-2">
                             <Link size={10} className="text-text/70 mr-1" />
