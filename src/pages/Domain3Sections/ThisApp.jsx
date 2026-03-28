@@ -22,7 +22,7 @@ export default function ThisApp() {
 
       <div className="flex flex-wrap gap-6 items-start justify-center">
         <div className="w-full flex justify-center md:w-auto">
-          <GlowCard image={hackatime} />
+          <GlowCard link="https://hackatime.hackclub.com/@heonaliu" image={hackatime} />
         </div>
         <div className="w-full md:flex-1 min-w-[450px]">
           <Card>
@@ -32,7 +32,7 @@ export default function ThisApp() {
               size="2"
             />
 
-            <p className="italic text-sm">click the image to be redirected!</p>
+            <p className="italic text-sm">click the image to be redirected to my hackatime stats!</p>
 
             {domain3Content.thisApp.section1.map((p, i) => (
               <p key={i}>{p}</p>
