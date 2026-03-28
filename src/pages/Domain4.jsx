@@ -4,7 +4,7 @@ import NclsCitizen from "./Domain4Sections/NclsCitizen";
 import PenguinCitizen from "./Domain4Sections/PenguinCitizen";
 export default function Domain4() {
   return (
-    <div className="flex flex-col gap-8 p-8">
+    <div className="flex flex-col pb-24 gap-8 p-8">
       <Header domain="4" title="STEM Citizenship" />
       <NclsCitizen />
       <Hackathon />
