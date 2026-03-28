@@ -10,6 +10,6 @@ export default defineConfig({
     },
   },
   build: {
-    minify: "esbuild", // <-- instead of LightningCSS
+    minify: false, // disable LightningCSS for now
   },
 });
