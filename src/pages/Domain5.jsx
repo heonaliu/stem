@@ -1,4 +1,5 @@
 import Header from "../components/Header";
+import Reflection from "./Domain5Sections/Reflection";
 export default function Domain5() {
   return (
     <div className="p-8 flex flex-col gap-8">
@@ -6,6 +7,7 @@ export default function Domain5() {
         domain="5"
         title="Connections Between/Among Experiences in STEM"
       />
+      <Reflection />
     </div>
   );
 }
