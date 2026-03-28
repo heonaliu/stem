@@ -3,12 +3,15 @@ import { useState, useEffect, useRef } from "react";
 import { ArrowRight, Link, Zap } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { useNavigate } from "react-router-dom";
 
 export default function RadialOrbitalTimeline({
   timelineData,
   centerLogo,
   centerTitle = "Portfolio",
   centerSubtitle = "STEM Seal",
+  showOrbitalLabels = true,
+  enablePageLinks = false,
 }) {
   const [expandedItems, setExpandedItems] = useState({});
   const [viewMode, setViewMode] = useState("orbital");
@@ -21,6 +24,7 @@ export default function RadialOrbitalTimeline({
   const containerRef = useRef(null);
   const orbitRef = useRef(null);
   const nodeRefs = useRef({});
+  const navigate = useNavigate();
 
   const handleContainerClick = (e) => {
     if (e.target === containerRef.current || e.target === orbitRef.current) {
@@ -222,16 +226,18 @@ export default function RadialOrbitalTimeline({
                 </div>
 
                 {/* Label */}
-                <div
-                  className={`
-                    absolute top-12 whitespace-nowrap
-                    text-xs font-semibold tracking-wider
-                    transition-all duration-300
-                    ${isExpanded ? "text-text scale-125" : "text-text/70"}
-                  `}
-                >
-                  {item.title}
-                </div>
+                {showOrbitalLabels && (
+                  <div
+                    className={`
+                      absolute top-12 whitespace-nowrap
+                      text-xs font-semibold tracking-wider
+                      transition-all duration-300
+                      ${isExpanded ? "text-text scale-125" : "text-text/70"}
+                    `}
+                  >
+                    {item.title}
+                  </div>
+                )}
 
                 {/* Expanded Card */}
                 {isExpanded && (
@@ -265,6 +271,24 @@ export default function RadialOrbitalTimeline({
                               <ArrowRight size={14} />
                             </a>
                           </Button>
+                          {enablePageLinks && item.path && (
+                            <div className="mt-4 pt-3 border-t border-white/10">
+                              <Button
+                                className="w-full flex items-center bg-accent-500 text-white justify-center gap-2  hover:bg-accent-500/60"
+                                onClick={(e) => {
+                                  e.stopPropagation();
+                                  navigate(item.path);
+                                  window.scrollTo({
+                                    top: 0,
+                                    behavior: "smooth",
+                                  });
+                                }}
+                              >
+                                View Page
+                                <ArrowRight size={14} />
+                              </Button>
+                            </div>
+                          )}
                         </div>
                       )}
                       {item.relatedIds.length > 0 && (
