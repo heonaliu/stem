@@ -28,7 +28,7 @@ const testimonialsData = [
   },
 ];
 
-export default function quotes1() {
+export default function Quotes1() {
   return (
     <div className="w-full max-w-4xl mx-auto">
       <div className="relative overflow-hidden rounded-2xl border border-white/20 bg-white/10 backdrop-blur-xl shadow-2xl p-6">

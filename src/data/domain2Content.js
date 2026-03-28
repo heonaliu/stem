@@ -80,7 +80,7 @@ export const domain2Content = {
     desc: [`Coming into Biology, I had a very limited understanding of the subject. I knew I had to come in with an open mind and a willingness to learn new concepts.`],
     explainTitle: "Connecting To This Domain",
     explain: [
-      ``,
+      `.`,
     ],
 
   }

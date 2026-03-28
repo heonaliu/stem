@@ -1,4 +1,5 @@
 import Header from "../components/Header";
+import Biology from "./Domain2Sections/Bio";
 import BlueprintGrowth from "./Domain2Sections/BlueprintGrowth";
 import Quotes1 from "./Domain2Sections/components/Quotes1";
 import IntRobo from "./Domain2Sections/IntRobo";
@@ -11,9 +12,10 @@ export default function Domain2() {
       <div className="flex flex-col gap-8 p-8">
         <Header domain="2" title="Significant Growth Over Time" />
         <IntRobo />
-        <Quotes1 />
+        {/* <Quotes1 /> */}
         <PenguinGrowth />
         <NclsGrowth />
+        <Biology />
         <BlueprintGrowth />
       </div>
     </>
