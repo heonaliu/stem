@@ -72,9 +72,16 @@ export const domain2Content = {
       `MIT Blueprint was the very first hackathon I participated in. Leveraging our team’s diverse strengths, we divided responsibilities strategically across the web stack. For frontend development of our platform, I especially enjoyed using my strengths (User Interface/Web Design) from my digital art background. I felt the entirety of the event was incredibly inspiring. Being surrounded by such a large community of high school students (like me) who are just as passionate and excited to create made the event much more meaningful. Exploring the different projects built, I felt grateful to have such an opportunity to build on previous skillset, and I was constantly impressed by the creativity behind many of the projects built.`,
       `Because of the experience I’ve had in Blueprint, from then I’ve been actively looking for hackathon opportunities like joining Hack Club to meet more high schoolers that enjoy building just as much as I do! `,
       `Looking forward, through building projects for 30 hours, this April vacation I am excited to be attending Hack Club’s Athena Initiative: Sleepover. Hack Club is a global nonprofit organization for high school programmers. Sleepover is an overnight hackathon, empowering passionate high school girls to create, build and ship real projects throughout a weekend.`,
-
-    
     ]
+  },
+
+  bio: {
+    title: "Biology",
+    desc: [`Coming into Biology, I had a very limited understanding of the subject. I knew I had to come in with an open mind and a willingness to learn new concepts.`],
+    explainTitle: "Connecting To This Domain",
+    explain: [
+      ``,
+    ],
 
   }
 };

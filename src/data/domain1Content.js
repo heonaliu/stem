@@ -36,7 +36,7 @@ export const domain1Content = {
       `Chemistry (H)`,
       `Biology (H)`,
 
-      `Math: Math 1 (H)`,
+      `Math 1 (H)`,
       `Math 2 (H)`,
       `Pre-Calculus (H)`,
       `AP Statistics`,
