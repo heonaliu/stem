@@ -11,11 +11,11 @@ import { useNavigate, useLocation } from "react-router-dom";
 
 const navItems = [
   { path: "/", label: "Home", icon: Home },
-  { path: "/domain1", label: "Excellence", icon: Book },
-  { path: "/domain2", label: "Growth", icon: TrendingUp },
-  { path: "/domain3", label: "Commitment", icon: Brain },
-  { path: "/domain4", label: "Citizenship", icon: Users },
-  { path: "/domain5", label: "Connections", icon: LinkIcon },
+  { path: "/excellence", label: "Excellence", icon: Book },
+  { path: "/growth", label: "Growth", icon: TrendingUp },
+  { path: "/commitment", label: "Commitment", icon: Brain },
+  { path: "/citizenship", label: "Citizenship", icon: Users },
+  { path: "/connections", label: "Connections", icon: LinkIcon },
 ];
 
 export default function BubbleNavbar() {

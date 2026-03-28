@@ -20,11 +20,11 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
-          <Route path="/domain1" element={<Domain1 />} />
-          <Route path="/domain2" element={<Domain2 />} />
-          <Route path="/domain3" element={<Domain3 />} />
-          <Route path="/domain4" element={<Domain4 />} />
-          <Route path="/domain5" element={<Domain5 />} />
+          <Route path="/excellence" element={<Domain1 />} />
+          <Route path="/growth" element={<Domain2 />} />
+          <Route path="/commitment" element={<Domain3 />} />
+          <Route path="/citizenship" element={<Domain4 />} />
+          <Route path="/connections" element={<Domain5 />} />
         </Routes>
       </main>
     </div>
