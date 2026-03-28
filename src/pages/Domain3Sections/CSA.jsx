@@ -37,22 +37,12 @@ export default function CSA() {
             {domain3Content.csa.section1.map((p, i) => (
               <p key={i}>{p}</p>
             ))}
-            <Button
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://github.com/heonaliu/unplugged-hackathon"
-          >
-            GitHub <ArrowUpRight className="ml-2 h-4 w-4" />
-          </Button>
-    
-          
-
           <Button
             target="_blank"
             rel="noopener noreferrer"
-            href="https://github.com/heonaliu/unplugged-hackathon/commits/main/"
+            href="https://github.com/AP-CSA-PAH-Coding-Projects/assn04-monast-array-heonaliu"
           >
-            GitHub Commits <ArrowUpRight className="ml-2 h-4 w-4" />
+            CSA GitHub Track: Building Our Own ArrayLists <ArrowUpRight className="ml-2 h-4 w-4" />
           </Button>
           </Card>
         </div>

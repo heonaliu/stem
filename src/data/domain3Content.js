@@ -48,7 +48,7 @@ export const domain3Content = {
     title: "Self Studying AP Computer Science A",
     desc: [`Under AP Homeschooler's program, I asynchronously study AP Computer Science A, a college level course that covers Java programming and fundamental computer science concepts. In the curriculum, which includes topics such as object-oriented programming, data structures, algorithms, and more, I work hard to understand each concept thoroughly. Through this self-study, I not only gained a strong understanding of Java but also developed critical problem-solving skills and a deeper appreciation for computer science principles.`],
     section1Title: "Connecting To This Domain",
-    section1: [`...`]
+    section1: [`Throughout the course, I did asynchronous work on CSAwesome (an online platform for AP CSA students), built GitHub assignments (linked below) that explored concepts and tools beyond the CSA curriculum. By taking initiative to learn independently and applying my knowledge through projects, I demonstrate a strong commitment to personal study in STEM. This self-driven approach not only enhances my learning experience but also prepares me for future challenges in the field of technology.`]
   },
 
   thisApp: {
