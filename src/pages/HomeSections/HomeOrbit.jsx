@@ -81,7 +81,7 @@ export default function HomeOrbit() {
   return (
     <RadialOrbitalTimeline
       timelineData={timelineData}
-      centerTitle="STEM Seal Application"
+      centerTitle="The 5 Domains of the STEM Seal"
       centerSubtitle="Heona Liu"
       showOrbitalLabels={false}
       enablePageLinks={true}
