@@ -5,7 +5,7 @@ export const domain4Content = {
       `During the 2024-2025 school year, I was a Math Teaching Assistant at the Newton Chinese Language School (NCLS), working with students both in the Wednesday Afterschool program and Sunday Day School. In this role, I supported students in strengthening their mathematical foundations, guided them through problem solving, and provided individualized feedback based on their work.`,
       `Through grading assignments and hearing students’ approaches to problem-solving, I was able to both identify areas where students needed additional support and adjust the guidance I gave them accordingly.`,
     ],
-    explainTitle: "How This Demonstrates STEM Citizenship",
+    explainTitle: "Connecting To This Domain",
     explain: [
       `This experience demonstrates STEM citizenship because it grows beyond peer collaboration and involves maintaining leadership by having a direct impact on others’ learning. By teaching, mentoring, and supporting students I advocated for an inclusive and encouraging environment where they felt comfortable asking questions and developing confidence to continue building in STEM.`,
       `Additionally, I demonstrate initiative and commitment by continuing after returning from my (4 month) exchange program, exemplifying my dedication to supporting my students and continuously fostering curiosity in their learning.`,
