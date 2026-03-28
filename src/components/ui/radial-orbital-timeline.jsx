@@ -272,24 +272,24 @@ export default function RadialOrbitalTimeline({
                               <ArrowRight size={14} />
                             </a>
                           </Button>
-                          {enablePageLinks && item.path && (
-                            <div className="mt-4 pt-3 border-t border-white/10">
-                              <Button
-                                className="w-full flex items-center bg-accent-500 text-white justify-center gap-2  hover:bg-accent-500/60"
-                                onClick={(e) => {
-                                  e.stopPropagation();
-                                  navigate(item.path);
-                                  window.scrollTo({
-                                    top: 0,
-                                    behavior: "smooth",
-                                  });
-                                }}
-                              >
-                                View Page
-                                <ArrowRight size={14} />
-                              </Button>
-                            </div>
-                          )}
+                        </div>
+                      )}
+                      {enablePageLinks && item.path && (
+                        <div className="mt-4 pt-3 border-t border-white/10">
+                          <Button
+                            className="w-full flex items-center bg-accent-500 text-white justify-center gap-2  hover:bg-accent-500/60"
+                            onClick={(e) => {
+                              e.stopPropagation();
+                              navigate(item.path);
+                              window.scrollTo({
+                                top: 0,
+                                behavior: "smooth",
+                              });
+                            }}
+                          >
+                            View Page
+                            <ArrowRight size={14} />
+                          </Button>
                         </div>
                       )}
                       {item.relatedIds.length > 0 && showNodes && (
