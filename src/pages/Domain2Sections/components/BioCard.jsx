@@ -11,36 +11,36 @@ const acslItems = [
     src: bio1,
     title: "Digestive System Diagram",
     description:
-      "This was when we first uploaded code onto the Arduino and got it to move forward.",
+      "After reading the text book, to synthesize key ideas and concepts, I drew a diagram of the digestive system. I found this process to be really helpful in solidifying my understanding of digestive systems. Therefore, I continued using this method in future units.",
   },
   {
     src: bio2,
     title: "Photosynthesis Diagram",
     description:
-      "Our robot was assembled however, there were no suitable holes that would securely attach the battery stand. However, I found a hole on the side of the L bracket. We removed one screw from the structure in order to fit a screw through. Not only were we able to secure the battery stand onto the structure, it could turn rotate slightly, allowing us to easily take the battery in and out.",
+      "Continuing to connect ideas through diagrams, I drew this diagram multiple times throughout my notebook.",
   },
   {
     src: bio3,
     title: "Circulatory System: Heart",
     description:
-      "The measurements our class was given instructed us to drill holes in specific areas of the bracket. Turns out, those measurement didn't align with the front wheel we were given. Seeing this, we used several flat brackets in order to adjust the alignment. Eventually, we were able engineer our way around this issue, proving that we can find solutions when facing obstacles in our build.",
+      "After reading the textbook, I still was confused about which way the blood flows and whether it was oxygen rich or oxygen poor. The bloodflow through the heart was a concept I found to be quite difficult since the directions of the bloodflow are also particularly intricate. Highlighting key terms and directions allowed me to see patterns in names while visualizing the flow.",
   },
   {
     src: bio4,
     title: "Circulatory System: Blood Vessels",
     description:
-      "This is when we were connecting the wires with the ESC, Arduino, and battery",
+      "After drawing the heart diagram, I redrew an overall big picture version of the systematic system showing theoxygen rich and oxygen poor flow.",
   },
   {
     src: bio5,
     title: "Cellular Respiration Diagram",
-    description: "This is what it looked like with all the components attached.",
+    description: "Cellular respiration was a unit I found to be especially difficult with the complex interactions between the different stages. Therefore, I took the time to search YouTube videos simplifying the explanations, reading different articles, and redrawing the process multiple times without references to see what I know and what I needed to review. ",
   },
   {
     src: bio6,
     title: "Cellular Respiration Diagram: Redrawing",
     description:
-      "After connecting our wires, our Arduino was simply floating in the center without any support or base. Seeing this, I took initiative to find a bracket that could hold the Arduino. At this time, the metal cutter's blade was being replaced, so that meant I would have to cut this piece of metal by hand. After lots of persistence, I managed to cut through, contributing toward my build and helping my team.",
+      "Redrawing of the cellular respiration diagram without references.",
   },
 ];
 
