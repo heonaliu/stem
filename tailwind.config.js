@@ -21,7 +21,7 @@ export default {
         },
         accent: {
           500: "#7C9DC5",
-          600: "#6B8BB3",
+          600: "#6b8bb3",
         },
         surface: "#ffffff",
         text: "#2f2f2f",
