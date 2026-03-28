@@ -72,6 +72,7 @@ export default function TakoOrbit() {
       centerLogo={logo}
       centerTitle="TakoFocus"
       centerSubtitle="By Heona Liu"
+      showNodes={false}
     />
   );
 }
