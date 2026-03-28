@@ -10,6 +10,7 @@ export default defineConfig({
     },
   },
   build: {
-    minify: false, // disable LightningCSS for now
+    outDir: "build", // <-- important for Vercel
+    minify: false,   // disable LightningCSS issues for now
   },
 });
