@@ -1,31 +1,14 @@
-import {
-  ImagesIcon,
-  LinkIcon,
-  Users,
-  Brain,
-  TrendingUp,
-  Book,
-  Home,
-} from "lucide-react";
-
+import { LinkIcon, Users, Brain, TrendingUp, Book, Home } from "lucide-react";
+import center from "../../assets/public/center1.png";
 import RadialOrbitalTimeline from "@/components/ui/radial-orbital-timeline";
-import logo from "../../assets/public/skilltrade-logo.png";
-import { useNavigate } from "react-router-dom";
-const navItems = [
-  { path: "/", label: "Home", icon: Home },
-  { path: "/excellence", label: "Excellence", icon: Book },
-  { path: "/growth", label: "Growth", icon: TrendingUp },
-  { path: "/commitment", label: "Commitment", icon: Brain },
-  { path: "/citizenship", label: "Citizenship", icon: Users },
-  { path: "/connections", label: "Connections", icon: LinkIcon },
-];
 
 const timelineData = [
   {
     id: 1,
     title: "Excellence In The Discipline",
     date: "2026",
-    content: "Applicants should excel in multiple disciplines within STEM. This can be demonstrated through the various STEM classes they take at Newton North, awards and recognitions, success in competitions, etc.",
+    content:
+      "Applicants should excel in multiple disciplines within STEM. This can be demonstrated through the various STEM classes they take at Newton North, awards and recognitions, success in competitions, etc.",
     icon: Book,
     relatedIds: [2, 5],
     energy: 100,
@@ -69,7 +52,8 @@ const timelineData = [
     id: 5,
     title: "Connections between STEM Disciplines",
     date: "2026",
-    content: "Applicants should make connections between varied STEM disciplines. This can be demonstrated through their choice of final product, the way they engage in STEM citizenship and/or their personal reflection on their learning and engagement.",
+    content:
+      "Applicants should make connections between varied STEM disciplines. This can be demonstrated through their choice of final product, the way they engage in STEM citizenship and/or their personal reflection on their learning and engagement.",
     icon: LinkIcon,
     relatedIds: [4, 1],
     energy: 10,
@@ -83,6 +67,7 @@ export default function HomeOrbit() {
       timelineData={timelineData}
       centerTitle="The 5 Domains of the STEM Seal"
       centerSubtitle="Heona Liu"
+      centerLogo={center}
       showOrbitalLabels={false}
       enablePageLinks={true}
       showNodes={false}
