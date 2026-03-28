@@ -2,7 +2,7 @@ import Card from "@/components/Card";
 import Subheading from "@/components/Subheading";
 import { GlowCard } from "@/components/GlowCard";
 import { domain3Content } from "@/data/domain3Content";
-import hackatime from "@/assets/public/hackatime.png";
+import hackatime from "@/assets/public/hackatime1.png";
 import Button from "@/components/Button";
 import { ArrowUpRight } from "lucide-react";
 

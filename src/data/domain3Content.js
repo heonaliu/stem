@@ -55,11 +55,11 @@ export const domain3Content = {
     title: "This Website",
     desc: [`Yes! I worked really hard to build this website not only for the STEM Seal but also so I can look back and document my experiences and learning journey in a way that builds on my Computer Science and STEM disciplines.`],
     section1Title: "Connecting To This Domain",
-    section1: [`Using an IDE tracker that tracks the amount of time I spend coding. Through coding alone and balancing rigorous school work, I spent over 15 hours alone in one week building this. This website not only builds on my learning of web development, it also strongly supports my pursuit of STEM and commitment to independent study.`,
+    section1: [`Using an IDE tracker (wakatime) that tracks the amount of time I spend coding in Visual Studio Code. Through coding alone and balancing rigorous school work, I spent over 24 hours alone in one week building this. This website not only builds on my learning of web development, it also strongly supports my pursuit of STEM and commitment to independent study.`,
         `My favorite part about this journey is that I learned how to break down reusable parts in this site like the cards, orbit layout, and headings into components. Breaking them down into components allows me to write efficient clean code that is organized and flexible to adjust.`,
         `Some challenges I faced were working with styles. Building on Tailwind CSS styling I learned in the building of the Hackathon Website, I decided to practice again using it here.`,
         `I made use of some parts (orbitals, glow cards) from websites like reactbits.dev and 21st.dev and researched how to integrate these. I’m proud of being able to create an application that allows me to use practical skills in the process, creating an engaging application.`,
-        `By showcasing my application in a way that applies my learning and growth in STEM, I demonstrate a strong commitment to personal study and going above and beyond in STEM.`
+        `By showcasing my application in a way that applies my learning and growth in STEM, I demonstrate a strong commitment to personal study and dedication to going above and beyond in STEM.`
     ]
   }
 };
