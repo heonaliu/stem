@@ -8,7 +8,7 @@ import tutor from "@/assets/public/tutor.png";
 import ExpandCard from "@/components/ExpandCard";
 import { Link } from "react-router-dom";
 import { domain2Content } from "@/data/domain2Content";
-import intPic from "@/assets/public/intRobo/int1.png"
+import intPic from "@/assets/public/intRobo/int1.png";
 
 export default function NclsCitizen() {
   return (
@@ -38,29 +38,37 @@ export default function NclsCitizen() {
       </div>
 
       <div className="flex flex-wrap gap-6 items-start justify-center">
-              <div className="w-full flex justify-center md:w-auto">
-                <GlowCard
-                  image={tutor}
-                />
-              </div>
-              <div className="w-full md:flex-1 min-w-[250px]">
-                <Card>
-                  <Subheading
-                    title={domain4Content.ncls.explainTitle}
-                    color="text-primary-500"
-                    size="2"
-                  />
-      
-                  <p className="italic text-sm">
-                    Image: tutoring Raymond on geometry!
-                  </p>
-      
-                  {domain4Content.ncls.explain.map((p, i) => (
-                    <p key={i}>{p}</p>
-                  ))}
-                </Card>
-              </div>
-            
+        <div className="w-full flex justify-center md:w-auto">
+          <GlowCard image={tutor} />
+        </div>
+        <div className="w-full md:flex-1 min-w-[250px]">
+          <Card>
+            <Subheading
+              title={domain4Content.ncls.explainTitle}
+              color="text-primary-500"
+              size="2"
+            />
+
+            <p className="italic text-sm">
+              Image: tutoring Raymond on geometry!
+            </p>
+
+            {domain4Content.ncls.explain.map((p, i) => (
+              <p key={i}>{p}</p>
+            ))}
+            <p>
+              To learn more about ELSA under {" "}
+              <Link
+                to="/excellence"
+                className="text-primary-500 hover:underline"
+                onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+              >
+                Excellence
+              </Link>
+              .
+            </p>
+          </Card>
+        </div>
       </div>
     </>
   );
