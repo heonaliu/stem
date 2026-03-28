@@ -80,7 +80,7 @@ export const domain2Content = {
     desc: [`Coming into Biology, I had a very limited understanding of the subject. I knew I had to come in with an open mind and a willingness to learn new concepts.`],
     explainTitle: "Connecting To This Domain",
     explain: [
-      `.`,
+      `Throughout the year, I found that drawing diagrams was a really powerful way to understand concepts and complex interactions, especially during the cellular respiration unit. After reading the text book I still felt lost about the inputs and outputs of each stage and how they are connected. Instead of giving up or waiting till next class, I proactively dedicated much of my time watching YouTube videos that further explained the concepts visually. Afterward, I would draw out diagrams on my own first to connect the ideas. Doing this consistently, I was able to gain a stronger foundation of biology, patterns, and create stories around the concepts to make them easily memorable. `,
     ],
 
   }

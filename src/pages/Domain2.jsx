@@ -15,7 +15,7 @@ export default function Domain2() {
         {/* <Quotes1 /> */}
         <PenguinGrowth />
         <NclsGrowth />
-        <Biology />
+        {/* <Biology /> */}
         <BlueprintGrowth />
       </div>
     </>
