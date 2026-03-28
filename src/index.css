@@ -87,3 +87,10 @@
     @apply font-sans;
   }
 }
+
+@font-face {
+  font-family: "Muthiara";
+  src: url("./assets/fonts/Muthiara\ demo\ version.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}

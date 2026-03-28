@@ -28,6 +28,9 @@ export default {
         muted: "#6b7280",
         lightmuted: "#c1d1ca",
       },
+      fontFamily: {
+        special: ["Muthiara", "sans-serif"],
+      }
     },
   },
   plugins: [],
