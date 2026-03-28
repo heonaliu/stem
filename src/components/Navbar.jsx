@@ -30,7 +30,7 @@ export default function BubbleNavbar() {
         flex items-center gap-2
         bg-white/70 border 
         border-primary-500 rounded-full 
-        px-4 py-3 rounded-full shadow-lg
+        px-4 py-3 shadow-lg
       "
       >
         {navItems.map((item, idx) => {
@@ -40,45 +40,54 @@ export default function BubbleNavbar() {
             hoveredIdx !== null && Math.abs(hoveredIdx - idx) === 1;
 
           return (
-            <button
-              key={item.path}
-              onClick={() => navigate(item.path)}
-              onMouseEnter={() => setHoveredIdx(idx)}
-              onMouseLeave={() => setHoveredIdx(null)}
-              className={`
-  group relative flex items-center justify-center
-  rounded-full transition-all duration-300
-
-  ${
-    isActive
-      ? "bg-primary-100 text-primary-600 shadow-md scale-110"
-      : "text-muted hover:text-accent-500 hover:bg-primary-100"
-  }
-
-  ${isHovered ? "w-14 h-14" : isNeighbor ? "w-12 h-12" : "w-10 h-10"}
-`}
-            >
-              <item.icon
+            <div key={item.path} className="flex items-center">
+              <button
+                onClick={() => navigate(item.path)}
+                onMouseEnter={() => setHoveredIdx(idx)}
+                onMouseLeave={() => setHoveredIdx(null)}
                 className={`
-                  rounded-full transition-all duration-300 transform
-                  ${isHovered ? "w-7 h-7" : isNeighbor ? "w-5 h-5" : "w-4 h-4"}
-                `}
-              />
+                  group relative flex items-center justify-center
+                  rounded-full transition-all duration-300
 
-              {/* Tooltip */}
-              <span
-                className="
-                absolute -top-10
-                scale-0 opacity-0
-                bg-primary-500 text-white text-xs
-                px-2 py-1 rounded-md
-                rounded-full transition-all duration-200 transform
-                group-hover:scale-100 group-hover:opacity-100
-              "
+                  ${
+                    isActive
+                      ? "bg-primary-100 text-primary-600 shadow-md scale-110"
+                      : "text-muted hover:text-accent-500 hover:bg-primary-100"
+                  }
+
+                  ${
+                    isHovered
+                      ? "w-14 h-14"
+                      : isNeighbor
+                        ? "w-12 h-12"
+                        : "w-10 h-10"
+                  }
+                `}
               >
-                {item.label}
-              </span>
-            </button>
+                <item.icon
+                  className={`
+                    transition-all duration-300
+                    ${isHovered ? "w-7 h-7" : isNeighbor ? "w-5 h-5" : "w-4 h-4"}
+                  `}
+                />
+
+                <span
+                  className="
+                    absolute -top-10
+                    scale-0 opacity-0
+                    bg-primary-500 text-white text-xs
+                    px-2 py-1 rounded-md
+                    transition-all duration-200 transform
+                    group-hover:scale-100 group-hover:opacity-100
+                  "
+                >
+                  {item.label}
+                </span>
+              </button>
+
+              {/* Divider after Home */}
+              {idx === 0 && <div className="mx-2 h-6 w-[1px] bg-gray-300" />}
+            </div>
           );
         })}
       </nav>
