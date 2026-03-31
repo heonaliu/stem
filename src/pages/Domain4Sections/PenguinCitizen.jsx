@@ -5,6 +5,8 @@ import { domain2Content } from "@/data/domain2Content";
 import { GlowCard } from "@/components/GlowCard";
 import penguin from "@/assets/public/penguin-coding.png";
 import ExpandCard from "@/components/ExpandCard";
+import PenguinQuote from "./components/PenguinQuote";
+import PenguinQuote2 from "./components/PenguinQuote2";
 
 export default function PenguinCitizen() {
   return (
@@ -26,6 +28,7 @@ export default function PenguinCitizen() {
         </div>
       </div>
       <div className="w-full flex flex-col gap-6 max-w-auto justify-center">
+        <PenguinQuote />
         <ExpandCard expandable>
           <Subheading
             title={domain2Content.penguin.section2Title}
@@ -54,6 +57,7 @@ export default function PenguinCitizen() {
             <p key={i}>{p}</p>
           ))}
         </ExpandCard>
+        <PenguinQuote2 />
       </div>
     </>
   );
