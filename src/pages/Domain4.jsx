@@ -1,4 +1,5 @@
 import Header from "../components/Header";
+import CompProg from "./Domain4Sections/CompProg";
 import Hackathon from "./Domain4Sections/Hackathon";
 import NclsCitizen from "./Domain4Sections/NclsCitizen";
 import PenguinCitizen from "./Domain4Sections/PenguinCitizen";
@@ -8,6 +9,7 @@ export default function Domain4() {
       <Header domain="4" title="STEM Citizenship" />
       <NclsCitizen />
       <Hackathon />
+      <CompProg />
       <PenguinCitizen />
     </div>
   );

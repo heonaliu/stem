@@ -40,4 +40,12 @@ export const domain4Content = {
       `In conclusion, my role as a teacher demonstrates STEM citizenship by building on the growth of others in STEM, encouraging curiosity and being a leader toward a stronger foundation for the future involvement in this field.`,
     ],
   },
+
+  compProg: {
+    title: "Computer Programming Class",
+    desc: [
+      `During 2024-2025 school year, I took Computer Programming with Ms. Daley. There, I built on my knowledge of Python and demonstrated leadership by supporting my peers and applying my leadership skills both within and outside the classroom.`
+    ]
+
+  }
 };
