@@ -28,7 +28,7 @@ month is a testament to the positive, inclusive environment she creates.`,
       { icon: Users, text: "Manager" },
       { icon: Clock, text: "Sophomore - Present" },
     ],
-    avatarGradient: "linear-gradient(135deg, #ff5656, #f65cf6)",
+    avatarGradient: "linear-gradient(135deg, #ff5656, #ff802b)",
   },
 ];
 

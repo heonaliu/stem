@@ -9,22 +9,28 @@ import {
   Zap,
   Gem,
 } from "lucide-react";
-import { TestimonialStack } from "../../../components/ui/glass-testimonial-swiper"
+import { TestimonialStack } from "../../../components/ui/glass-testimonial-swiper";
 
 import React from "react";
 const testimonialsData = [
   {
     id: 1,
-    initials: "MD",
-    name: "Ms. Daley",
-    role: "Computer Programming Teacher",
-    quote: "xyz",
-    tags: [{ text: "Technology", type: "featured" }],
+    initials: "EA",
+    name: "Elizabeth “Betsy” Areizaga",
+    role: "Manager of Penguin Coding School, Newton",
+    quote: `What stands out most is Heona’s proactive approach to her own professional development. She
+is remarkably self-sufficient but possesses the maturity to seek help & guindance when
+navigating a difficult student dynamic. For example, her initiative to learn Roblox Studios & Lua
+programming in order to teach the class. This was a significant undertaking, as it required, not
+only coding, but a complex 3D virtual interface (utilizing a 3-button mouse system and intricate
+script organization). By teaching herself this platform to expand our course offerings, she
+demonstrated the exact "growth mindset" we encourage in our students.`,
+    tags: [{ text: "Leadership", type: "featured" }],
     stats: [
-      { icon: Users, text: "Math Dept." },
-      { icon: Clock, text: "Sophomore Year" },
+      { icon: Users, text: "Manager" },
+      { icon: Clock, text: "Sophomore - Present" },
     ],
-    avatarGradient: "linear-gradient(135deg, #5e6ad2, #8b5cf6)",
+    avatarGradient: "linear-gradient(135deg, #ff5656, #ff802b)",
   },
 ];
 
