@@ -1,4 +1,5 @@
 import Header from "../components/Header";
+import ACSLStudy from "./Domain3Sections/ACSLStudy";
 import QuoteCSA from "./Domain3Sections/components/QuoteCSA";
 import CSA from "./Domain3Sections/CSA";
 import Hack from "./Domain3Sections/Hack";
@@ -11,6 +12,7 @@ export default function Domain3() {
     <div className="flex flex-col gap-8 py-8 pb-24 pl-8 pr-8">
       <Header domain="3" title="Commitment to Personal Study" />
       <Hack />
+      <ACSLStudy />
       <Tako />
       <WebDev />
       <CSA />

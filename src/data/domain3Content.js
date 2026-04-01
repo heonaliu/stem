@@ -16,6 +16,27 @@ export const domain3Content = {
     ],
   },
 
+  acsl: {
+    title: "Studying for ACSL 2025-2026",
+    desc: [
+      "In order to perform well for the American Computer Science League (ACSL) competitions, I independently studied and practiced a variety of computer science topics including algorithms, data structures, and programming concepts. I utilized online resources, past competition problems, and coding platforms to enhance my understanding and problem-solving skills. Through consistent practice and self-directed learning, I was able to improve my performance in the competitions and deepen my knowledge of computer science principles.",
+    ],
+    explain: [
+      `As a passionate student in Computer Science, 
+      I am also deeply involved in Newton North’s programming club. 
+      This is my first year and not only does it allow me to challenge different critical topics in the CS field, 
+      but also brings me into competitive programming environments and timed competitions. 
+      Working with ACSL not only keeps me on my toes with new topics each contest, 
+      but also allows me to find the joy mapping out my problems 
+      (especially seen in page 5 of ACSL Contest 2 and page 2 of ACSL Contest 3) and thinking strategically. 
+      During the 72-hour programming problem, almost 90% of the time I spend is spent thinking, and the 10% is the actual coding.`,
+      `This is currently an ongoing contest. Newton North’s Programming Club is competing in the Intermediate 5 Division. S1 refers to “Short Problem for Contest 1” and P1 refers to “Programming Problem for Contest 1”. As of Contest 1 and Contest 2, I have earned full points (6) for our team, reflecting the results of my effort to strive and challenging myself to look beyond opportunities within the classroom and become a better problem solver.`,
+    ],
+    explainTitle: "Connecting To The Domain",
+
+
+  },
+
   tako: {
     title: "Project: TakoFocus",
     desc: [
