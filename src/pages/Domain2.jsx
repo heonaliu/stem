@@ -12,10 +12,10 @@ export default function Domain2() {
       <div className="flex flex-col gap-8 p-8">
         <Header domain="2" title="Significant Growth Over Time" />
         <IntRobo />
-        {/* <Quotes1 /> */}
+        <Quotes1 />
         <PenguinGrowth />
         <NclsGrowth />
-        {/* <Biology /> */}
+        <Biology />
         <BlueprintGrowth />
       </div>
     </>

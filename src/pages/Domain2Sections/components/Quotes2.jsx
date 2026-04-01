@@ -18,7 +18,13 @@ const testimonialsData = [
     initials: "DH",
     name: "Ms. Homer",
     role: "Biology Teacher",
-    quote: "xyz",
+    quote: `While biology is a new subject for Heona, she dives into all class activities, speaks up with
+questions both to clarify her understanding and explore her curiosity, and takes steps to deepen
+her understanding outside of class. In particular, Heona takes meticulous notes and
+demonstrates strong attention to detail in the diagrams and drawings she creates as part of her
+notes. When we covered the details of cellular respiration (which is often a challenging topic for
+students), she took the time to watch extra resource videos and rewrite notes to master the new
+concepts.`,
     tags: [{ text: "Science", type: "featured" }],
     stats: [
       { icon: Users, text: "Science Dept." },
