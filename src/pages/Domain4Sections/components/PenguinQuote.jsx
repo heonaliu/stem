@@ -29,7 +29,7 @@ and fun. Which is the base that all Penguin Coding Schools strive to deliver.`,
       { icon: Users, text: "Manager" },
       { icon: Clock, text: "Sophomore - Present" },
     ],
-    avatarGradient: "linear-gradient(135deg, #ff5656, #f65cf6)",
+    avatarGradient: "linear-gradient(135deg, #ff5656, #ff802b)",
   },
 ];
 
