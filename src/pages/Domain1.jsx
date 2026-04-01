@@ -9,6 +9,7 @@ import Define from "./Domain1Sections/Define";
 import ELSA from "./Domain1Sections/ELSA";
 import Blueprint from "./Domain1Sections/Blueprint";
 import Conclusion from "./Domain1Sections/Conclusion";
+import ExcelQuote from "./Domain1Sections/components/ExcelQuote";
 
 export default function Domain1() {
   return (
@@ -17,6 +18,7 @@ export default function Domain1() {
         <Header domain="1" title="Excellence In Disciplines" />
         <Define />
         <Transcript />
+        <ExcelQuote />
         <NCWIT />
         <ACSL />
         <ELSA />

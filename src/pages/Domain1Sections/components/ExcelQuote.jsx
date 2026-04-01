@@ -18,8 +18,8 @@ const testimonialsData = [
     initials: "RC",
     name: "Ms. Collipp",
     role: "AP Computer Science A Teacher",
-    quote: "Heona consistently exceeded expectations for this course. She produces thoughtful, well-strcutured code and demonstrates a strong grasp of object-oriented programming concepts. Beyond earning an A in the fall semester and maintaining it through this point, Heona has chosen to complete the advanced GitHub track, learning tools and workflows that go well beyond what is required for sucess on the AP CSA exam.",
-    tags: [{ text: "Technology", type: "featured"}],
+    quote: "What distinguishes Heona most is her intellectual curiosity and desire to apply her learning beyond the classroom. She regularly explores concepts beyond project requirements and seeks out authentic experiences in computer science, including hackathons, programming competitions, and independent web development projects. She was recently awarded an NCWIT 2026 Massachusetts Affiliate Honorable Mention. Her enthusiasm for building, collaborating, and learning within the broader STEM commmunity reflects a genuine commitment to the field.",
+    tags: [{ text: "Excellence", type: "featured"}],
     stats: [
       { icon: Users, text: "AP Homeschoolers Teacher" },
       { icon: Clock, text: "Junior Year" },
@@ -28,7 +28,7 @@ const testimonialsData = [
   },
 ];
 
-export default function QuoteCSA() {
+export default function ExcelQuote() {
   return (
     <div className="w-full max-w-4xl mx-auto">
       <div className="relative overflow-hidden rounded-2xl border border-white/20 bg-white/10 backdrop-blur-xl shadow-2xl p-6">

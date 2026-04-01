@@ -25,7 +25,7 @@ programming in order to teach the class. This was a significant undertaking, as 
 only coding, but a complex 3D virtual interface (utilizing a 3-button mouse system and intricate
 script organization). By teaching herself this platform to expand our course offerings, she
 demonstrated the exact "growth mindset" we encourage in our students.`,
-    tags: [{ text: "Leadership", type: "featured" }],
+    tags: [{ text: "Growth", type: "featured" }],
     stats: [
       { icon: Users, text: "Manager" },
       { icon: Clock, text: "Sophomore - Present" },
