@@ -22,7 +22,7 @@ export const domain4Content = {
     ],
     explainTitle: "Connecting To This Domain",
     explain: [
-      `Unplugged supports the initiative to build a larger, stronger STEM community and gives beginners and high school students a fun event to explore their computer science skills. This supports organization of STEM-related school/community events.`,
+      `Unplugged supports the initiative to build a larger, stronger STEM community and gives beginners and high school students a fun event to explore their computer science skills. This supports creating opportunities for STEM-related school/community events.`,
       `Collaborating with the other organizers, my role was the marketing and graphics creation for posters to prepare for the event. Additionally, reaching out toward sponsorship opportunities, making sure this event would be able to run smoothly.`,
     ],
   },

@@ -28,7 +28,7 @@ export const domain1Content = {
           while still maintaining balance in humanities subjects.`,
 
       `The following year, I am enrolled in AP Physics C, AP Calculus BC,
-          Data Science, and Advanced Robotics, further challenging myself.`,
+          Data Science, and Advanced Robotics, Electrical Engineering, and Electrical Design further challenging myself within the disciplines of STEM.`,
     ],
     titleCore: "Core STEM Courses Throughout 9-11th Grade",
     coreContent: [
