@@ -26,8 +26,8 @@ Roblox Studios. She adapts her instruction to meet students at their levels, bal
 and fun. Which is the base that all Penguin Coding Schools strive to deliver.`,
     tags: [{ text: "Leadership", type: "featured" }],
     stats: [
-      { icon: Users, text: "AP Homeschoolers Teacher" },
-      { icon: Clock, text: "Junior Year" },
+      { icon: Users, text: "Manager" },
+      { icon: Clock, text: "Sophomore - Present" },
     ],
     avatarGradient: "linear-gradient(135deg, #ff5656, #f65cf6)",
   },

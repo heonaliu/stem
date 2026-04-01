@@ -25,8 +25,8 @@ technology. Her ability to keep her classes organized and her students returning
 month is a testament to the positive, inclusive environment she creates.`,
     tags: [{ text: "Leadership", type: "featured" }],
     stats: [
-      { icon: Users, text: "AP Homeschoolers Teacher" },
-      { icon: Clock, text: "Junior Year" },
+      { icon: Users, text: "Manager" },
+      { icon: Clock, text: "Sophomore - Present" },
     ],
     avatarGradient: "linear-gradient(135deg, #ff5656, #f65cf6)",
   },
