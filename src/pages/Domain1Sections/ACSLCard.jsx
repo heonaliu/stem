@@ -36,7 +36,7 @@ const acslItems = [
   {
     src: acsl7,
     title: "More Conversion Practice:",
-    description: "This was prior to the contest.",
+    description: "This was independent practice with infix/prefix/postfix prior to the contest.",
   },
   {
     src: acsl8,

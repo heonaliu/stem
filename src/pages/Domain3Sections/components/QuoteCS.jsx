@@ -9,7 +9,7 @@ import {
   Zap,
   Gem,
 } from "lucide-react";
-import { TestimonialStack } from "../../../components/ui/glass-testimonial-swiper"
+import { TestimonialStack } from "../../../components/ui/glass-testimonial-swiper";
 
 import React from "react";
 const testimonialsData = [
@@ -23,7 +23,7 @@ not only completed her assignments well, but she used them as a springboard for 
 She frequently tackled more challenging extensions to exercise her skills once standard assignments were
 complete. Heona consistently stretched herself beyond what was required to earn a high grade. This drive
 represents a clear commitment to personal growth and study.`,
-    tags: [{ text: "Commitment & Personal Study", type: "featured"}],
+    tags: [{ text: "Commitment & Personal Study", type: "featured" }],
     stats: [
       { icon: Users, text: "Math Dept." },
       { icon: Clock, text: "Sophmore Year" },
