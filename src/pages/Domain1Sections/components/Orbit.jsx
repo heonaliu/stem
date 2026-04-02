@@ -71,7 +71,7 @@ const timelineData = [
     icon: Clapperboard,
     relatedIds: [6],
     energy: 80,
-    link: "https://drive.google.com/drive/folders/1REDejJwWQDEeIlMgohGMKAMAD2easVio?usp=sharing",
+    link: "https://youtu.be/nRZnAbe1xRQ?si=c_Vmw5b3nLPbeD5s",
   },
 ];
 

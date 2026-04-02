@@ -53,7 +53,7 @@ export default function ACSLStudy() {
             <Button
             target="_blank"
             rel="noopener noreferrer"
-            href="https://drive.google.com/file/d/1gUOT7VaHvAkrhrCX34DRkAM78-ThGy1Z/view"
+            href="https://github.com/heonaliu/acsl-practice"
           >
             GitHub Repository of ACSL Practice Problems <ArrowUpRight className="ml-2 h-4 w-4" />
           </Button>
