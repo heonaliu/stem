@@ -42,7 +42,10 @@ export default function BubbleNavbar() {
           return (
             <div key={item.path} className="flex items-center">
               <button
-                onClick={() => navigate(item.path)}
+                onClick={() => {
+                  navigate(item.path);
+                  window.scrollTo({ top: 0, behavior: "smooth" });
+                }}
                 onMouseEnter={() => setHoveredIdx(idx)}
                 onMouseLeave={() => setHoveredIdx(null)}
                 className={`

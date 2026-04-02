@@ -16,8 +16,8 @@ export const domain5Content = {
     ],
   },
 
-  bio: {
-    title: "Biology Connections",
-    desc: [``],
+  connect: {
+    title: "Connections",
+    desc: [`Connections between the disciplines of STEM and my experiences in the 4 domains and are evident throughout my application (especially Growth and Commitment). It is also written below as a more extensive part of my overall reflection.`],
   },
 };

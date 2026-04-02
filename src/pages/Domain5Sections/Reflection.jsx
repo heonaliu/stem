@@ -7,13 +7,24 @@ export default function Reflection() {
   return (
     <>
     <ConnectBio />
-      <Subheading
+    <Card>
+        <Subheading
+        title={domain5Content.connect.title}
+        color={"text-accent-500"}
+        size="4"
+      />
+        {domain5Content.connect.desc.map((p, i) => (
+          <p key={i}>{p}</p>
+        ))}
+      </Card>
+      
+      
+      <Card>
+        <Subheading
         title={domain5Content.ref.title}
         color={"text-accent-500"}
         size="4"
       />
-      
-      <Card>
         {domain5Content.ref.desc.map((p, i) => (
           <p key={i}>{p}</p>
         ))}
