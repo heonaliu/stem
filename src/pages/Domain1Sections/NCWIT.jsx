@@ -33,7 +33,7 @@ export default function NCWIT() {
               size="2"
             />
 
-            <p className="italic text-sm">click the image to be redirected!</p>
+            <p className="italic text-sm">click the image to be redirected to my profile on NCWIT website!</p>
 
             {domain1Content.ncwit.explain.map((p, i) => (
               <p key={i}>{p}</p>

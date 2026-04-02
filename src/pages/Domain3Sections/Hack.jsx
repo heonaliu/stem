@@ -33,7 +33,7 @@ export default function Hack() {
               size="2"
             />
 
-            <p className="italic text-sm">click the image to be redirected!</p>
+            <p className="italic text-sm">click the image to be redirected to the website I created!</p>
 
             {domain3Content.hack.section1.map((p, i) => (
               <p key={i}>{p}</p>

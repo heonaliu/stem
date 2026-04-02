@@ -36,7 +36,7 @@ export default function Tako() {
               />
             </div>
             <p className="text-sm italic">
-              click the image to be redirected to try the web app!
+              click the image to be redirected to try the web app! P.S (You'll need to "sign in with Google" that's not under NPS to try the app)
             </p>
             {domain3Content.tako.section1.map((p, i) => (
               <p key={i}>{p}</p>

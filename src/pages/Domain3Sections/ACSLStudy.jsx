@@ -43,7 +43,7 @@ export default function ACSLStudy() {
 
             <div>
               <p className="italic text-sm">
-                click the image to be redirected!
+                click the image to be redirected to NNHS' ACSL Team Roster!
               </p>
             </div>
 

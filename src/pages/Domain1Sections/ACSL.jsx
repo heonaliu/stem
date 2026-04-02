@@ -40,7 +40,7 @@ export default function ACSL() {
 
             <div>
               <p className="italic text-sm">
-                click the image to be redirected!
+                click the image to be redirected to the NNHS Team Roster on the ACSL Website!
               </p>
             </div>
 

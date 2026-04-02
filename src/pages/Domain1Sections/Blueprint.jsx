@@ -46,6 +46,8 @@ export default function Blueprint() {
           {domain1Content.blueprint.section2Paragraphs.map((p, i) => (
             <p key={i}>{p}</p>
           ))}
+          <p></p>
+          <p className="text-sm italic">click the buttons below in the orbit to explore the different links to our project!</p>
         </Card>
       </div>
       <div className="w-full mt-60 mb-60 flex items-center justify-center">

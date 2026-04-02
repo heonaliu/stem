@@ -34,7 +34,6 @@ export default function CSA() {
               size="2"
             />
 
-            <p className="italic text-sm">click the image to be redirected!</p>
 
             {domain3Content.csa.section1.map((p, i) => (
               <p key={i}>{p}</p>
