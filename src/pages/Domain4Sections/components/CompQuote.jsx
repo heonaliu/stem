@@ -31,7 +31,7 @@ collaboration into true leadership and connection with the STEM community.`,
       { icon: Users, text: "Math Dept." },
       { icon: Clock, text: "Sophomore Year" },
     ],
-    avatarGradient: "linear-gradient(135deg, #ff5656, #ff802b)",
+    avatarGradient: "linear-gradient(135deg, #56eeff, #0f77b7)",
   },
 ];
 

@@ -28,7 +28,7 @@ represents a clear commitment to personal growth and study.`,
       { icon: Users, text: "Math Dept." },
       { icon: Clock, text: "Sophmore Year" },
     ],
-    avatarGradient: "linear-gradient(135deg, #ff5656, #f65cf6)",
+    avatarGradient: "linear-gradient(135deg, #56eeff, #0f77b7)",
   },
 ];
 

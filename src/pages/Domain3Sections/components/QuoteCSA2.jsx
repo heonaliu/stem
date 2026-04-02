@@ -1,0 +1,49 @@
+import {
+  Users,
+  Calendar,
+  ThumbsUp,
+  ShieldCheck,
+  Clock,
+  Share,
+  Rocket,
+  Zap,
+  Gem,
+} from "lucide-react";
+import { TestimonialStack } from "../../../components/ui/glass-testimonial-swiper"
+
+import React from "react";
+const testimonialsData = [
+  {
+    id: 1,
+    initials: "RC",
+    name: "Ms. Collipp",
+    role: "AP Computer Science A Teacher",
+    quote: "What distinguishes Heona most is her intellectual curiosity and desire to apply her learning beyond the classroom. She regularly explores concepts beyond project requirements and seeks out authentic experiences in computer science, including hackathons, programming competitions, and independent web development projects. She was recently awarded an NCWIT 2026 Massachusetts Affiliate Honorable Mention. Her enthusiasm for building, collaborating, and learning within the broader STEM commmunity reflects a genuine commitment to the field.",
+    tags: [{ text: "Technology", type: "featured"}],
+    stats: [
+      { icon: Users, text: "AP Homeschoolers Teacher" },
+      { icon: Clock, text: "Junior Year" },
+    ],
+    avatarGradient: "linear-gradient(135deg, #ff5656, #f65cf6)",
+  },
+];
+
+export default function QuoteCSA2() {
+  return (
+    <div className="w-full max-w-4xl mx-auto">
+      <div className="relative overflow-hidden rounded-2xl border border-white/20 bg-white/10 backdrop-blur-xl shadow-2xl p-6">
+        <div
+          className="absolute inset-0 bg-cover bg-center opacity-60 scale-110"
+          style={{
+            backgroundImage:
+              'url("https://res.cloudinary.com/drhx7imeb/image/upload/v1756215257/gradient-optimized_nfrakk.svg")',
+          }}
+        />
+
+        <div className="relative z-10">
+          <TestimonialStack testimonials={testimonialsData} />
+        </div>
+      </div>
+    </div>
+  );
+}

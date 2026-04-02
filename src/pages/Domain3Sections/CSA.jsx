@@ -5,6 +5,7 @@ import { domain3Content } from "@/data/domain3Content";
 import csa from "@/assets/public/csa.png";
 import Button from "@/components/Button";
 import { ArrowUpRight } from "lucide-react";
+import QuoteCSA2 from "./components/QuoteCSA2";
 
 export default function CSA() {
   return (
@@ -19,6 +20,7 @@ export default function CSA() {
           <p key={i}>{p}</p>
         ))}
       </Card>
+      <QuoteCSA2 />
 
       <div className="flex flex-wrap gap-6 items-start justify-center">
         <div className="w-full flex justify-center md:w-auto">
