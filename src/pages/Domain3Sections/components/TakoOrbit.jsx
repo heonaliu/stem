@@ -10,7 +10,7 @@ const timelineData = [
     icon: FileBadge,
     relatedIds: [2],
     energy: 100,
-    link: "https://plume.hackmit.org/project/pzlck-ousva-tjzni-mhcpa"
+    link: "https://credsverse.com/credentials/b6b47b12-7e20-4c94-b7a4-b1c5522184ac"
   },
   {
     id: 2,
