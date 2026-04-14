@@ -3,7 +3,7 @@ import Subheading from "@/components/Subheading";
 import { GlowCard } from "@/components/GlowCard";
 import { domain1Content } from "@/data/domain1Content";
 import { domain3Content } from "@/data/domain3Content";
-import acsl from "../../assets/public/acsl-team-roster.png";
+import acsl from "../../assets/public/acsl.png";
 import ACSLCard from "../Domain1Sections/ACSLCard";
 import ACSL3Card from "../Domain1Sections/ACSL3Card";
 import Button from "@/components/Button";
