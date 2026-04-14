@@ -54,6 +54,13 @@ export default function ThisApp() {
           >
             GitHub Commits <ArrowUpRight className="ml-2 h-4 w-4" />
           </Button>
+          <Button
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://drive.google.com/file/d/1A1VSv9CPeD0rNPIUb_0zoUQBsN1C09ib/view?usp=drive_link"
+          >
+            Video Explaining Code (8 min) <ArrowUpRight className="ml-2 h-4 w-4" />
+          </Button>
           </Card>
         </div>
         
