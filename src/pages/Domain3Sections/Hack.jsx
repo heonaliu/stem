@@ -53,6 +53,13 @@ export default function Hack() {
             >
               GitHub Commits <ArrowUpRight className="ml-2 h-4 w-4" />
             </Button>
+            <Button
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://drive.google.com/file/d/1kUcZwa0vXcLnFuPjghcoG8QMcdDKNN-z/view?usp=sharing"
+            >
+              Video Explaining Code (4 min) <ArrowUpRight className="ml-2 h-4 w-4" />
+            </Button>
           </Card>
         </div>
         <div className="w-full flex justify-center md:w-auto">
