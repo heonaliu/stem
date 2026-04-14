@@ -18,7 +18,7 @@ export const domain4Content = {
   hackathon: {
     title: "Unplugged Hackathon",
     desc: [
-      `NNHS Programming Club, in collaboration with NSHS, is organizing the Unplugged Hackathon (tentatively scheduled for May 23, 2026) geared toward high school and middle school students in computer science and introduce beginners to STEM.`,
+      `NNHS Programming Club, in collaboration with NSHS, is organizing the Unplugged Hackathon (tentatively scheduled for May 30, 2026) geared toward high school and middle school students in computer science and introduce beginners to STEM.`,
     ],
     explainTitle: "Connecting To This Domain",
     explain: [

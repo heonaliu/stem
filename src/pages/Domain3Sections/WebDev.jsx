@@ -12,7 +12,7 @@ export default function WebDev() {
           color={"text-accent-500"}
           size="4"
         />
-        {domain3Content.hack.desc.map((p, i) => (
+        {domain3Content.webDev.desc.map((p, i) => (
           <p key={i}>{p}</p>
         ))}
       </Card>

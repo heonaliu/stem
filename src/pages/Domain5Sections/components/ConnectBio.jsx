@@ -21,8 +21,7 @@ const testimonialsData = [
     quote: `This spring, Heona submitted an expertly crafted graphic about the
 circulatory/respiratory systems and how vaccination works. It has been a pleasure to observe
 Heona make use of her already well developed skills (such as graphics and computer
-programming) to support her mastery of new skills and content in biology.” - Dana Homer
-(NNHS Biology Teacher)`,
+programming) to support her mastery of new skills and content in biology.`,
     tags: [{ text: "Science", type: "featured" }],
     stats: [
       { icon: Users, text: "Science Dept." },

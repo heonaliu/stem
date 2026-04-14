@@ -63,7 +63,7 @@ export const domain3Content = {
 
   webDev: {
     title: "Summer Web Development Study",
-    desc: [`...`],
+    desc: [`Over the summer I learned to pursued a study in Javascript and relearning React JS, HTML, and CSS. I wanted to create different websites with a much more solid understanding of how the webstack worked together. Here are some pictures of the notes I took during my self-study on this topic.`],
   },
 
   csa: {

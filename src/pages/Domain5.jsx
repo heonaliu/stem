@@ -1,4 +1,5 @@
 import Header from "../components/Header";
+import OsmoCard from "./Domain5Sections/components/OsmoCard";
 import Reflection from "./Domain5Sections/Reflection";
 export default function Domain5() {
   return (
@@ -8,6 +9,7 @@ export default function Domain5() {
         title="Connections Between/Among Experiences in STEM"
       />
       <Reflection />
+      <OsmoCard />
     </div>
   );
 }

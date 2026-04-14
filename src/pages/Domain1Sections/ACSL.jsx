@@ -2,7 +2,7 @@ import Card from "@/components/Card";
 import Subheading from "@/components/Subheading";
 import { GlowCard } from "@/components/GlowCard";
 import { domain1Content } from "@/data/domain1Content";
-import acsl from "../../assets/public/acsl-team-roster.png";
+import acsl from "../../assets/public/acsl.png";
 import ACSLCard from "./ACSLCard";
 import ACSL3Card from "./ACSL3Card";
 
