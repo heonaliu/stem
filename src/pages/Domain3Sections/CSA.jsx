@@ -34,20 +34,27 @@ export default function CSA() {
               size="2"
             />
 
-
             {domain3Content.csa.section1.map((p, i) => (
               <p key={i}>{p}</p>
             ))}
-          <Button
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://github.com/AP-CSA-PAH-Coding-Projects/assn04-monast-array-heonaliu"
-          >
-            CSA GitHub Track: Building Our Own ArrayLists <ArrowUpRight className="ml-2 h-4 w-4" />
-          </Button>
+            <Button
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://github.com/heonaliu/assn05-monster-vs-monster-heonaliu"
+            >
+              CSA GitHub Track: Monster VS Monster Project{" "}
+              <ArrowUpRight className="ml-2 h-4 w-4" />
+            </Button>
+            <Button
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://drive.google.com/file/d/1B8j1KvWKnp-d_ATCiQFqFY1H7NyBxndf/view?usp=sharing"
+            >
+              Monster VS Monster: Video Explain Code (8 min){" "}
+              <ArrowUpRight className="ml-2 h-4 w-4" />
+            </Button>
           </Card>
         </div>
-        
       </div>
     </>
   );
